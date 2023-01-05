@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    path(r'users/', include('apps.users.urls'), namespace='users')
+    path(r'users/', include('apps.users.urls'))
 ]

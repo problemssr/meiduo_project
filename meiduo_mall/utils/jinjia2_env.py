@@ -3,7 +3,7 @@ from django.urls import reverse
 from jinja2 import Environment
 
 
-def jinja2_environment(**options):
+def environment(**options):
     env = Environment(**options)
     env.globals.update({
         'static': staticfiles_storage.url,
