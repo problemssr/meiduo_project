@@ -94,5 +94,19 @@ class RegisterView(View):
         from django.contrib.auth import login
         login(request, user)
 
-        return redirect(reverse('contents:index'))
+        return redirect(reverse('index'))
         # return http.HttpResponse('注册成功')
+
+class UsernameCountView(View):
+
+    def get(self,request,username):
+        # 1. 接收用户名
+
+        # 2. 查询数据库,通过查询记录的count来判断是否重复 0表示没有重复 1表示重复
+        try:
+            count = User.objects.filter(username=username).count()
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code':400,'errmsg':'数据库异常'})
+        #3.返回相应
+        return http.JsonResponse({'code':0,'count':count})

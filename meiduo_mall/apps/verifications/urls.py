@@ -1,10 +1,9 @@
 from django.urls import path
 
-from apps.users import views
+from apps.verifications import views
 
 urlpatterns = [
-    path('register/', views.RegisterView.as_view(), name='register'),
-    path('usernames/<str:username>/count/', views.UsernameCountView.as_view(), name='usernamecount'),
+    path('images_code/<int:uuid>/', views.ImageCodeView.as_view()),
 
     # path(r'^login/$', views.LoginView.as_view(), name='login'),
     # path(r'^logout/$', views.LogoutView.as_view(), name='logout'),

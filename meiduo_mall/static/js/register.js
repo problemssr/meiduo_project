@@ -66,6 +66,22 @@ var vm = new Vue({
                 this.error_name = true;
             }
 
+            //    在这里发送一个axios 请求
+            //    1.组织url
+            let url = '/users/usernames/' + this.username + '/count/';
+            //    2.发送请求
+            axios.get(url).then(response => {
+                //    3.请求成功的回调的业务逻辑
+                console.log(response)
+                if (response.data.count == 0)  {
+                    this.error_name = false
+                } else {
+                    this.error_name = true;
+                    this.error_name_message = '用户名已注册';
+                }
+            }).catch(error => {
+
+            })
 
         },
         // 检查密码
@@ -182,7 +198,7 @@ var vm = new Vue({
                 })
         },
         // 表单提交
-        on_submit(){
+        on_submit() {
             this.check_username();
             this.check_password();
             this.check_password2();
