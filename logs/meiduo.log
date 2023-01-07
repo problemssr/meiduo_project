@@ -1,0 +1,1779 @@
+INFO 2023-01-05 07:56:10,351 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:06:21,360 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 08:06:21,927 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:11:17,044 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:12:17,244 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:13:01,764 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 08:13:02,575 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:13:04,246 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:13:11,016 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2023-01-05 08:13:11,025 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2023-01-05 08:13:11,414 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-01-05 08:13:11,973 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:13:11,993 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:13:12,041 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2023-01-05 08:13:12,491 log 224 Not Found: /favicon.ico
+WARNING 2023-01-05 08:13:12,492 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2116
+WARNING 2023-01-05 08:13:12,500 log 224 Not Found: /favicon.ico
+WARNING 2023-01-05 08:13:12,501 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2116
+WARNING 2023-01-05 08:13:25,145 log 224 Not Found: /login.html
+WARNING 2023-01-05 08:13:25,145 basehttp 161 "GET /login.html HTTP/1.1" 404 2113
+INFO 2023-01-05 08:14:01,947 basehttp 161 "GET /static/login.html HTTP/1.1" 200 2676
+INFO 2023-01-05 08:14:01,997 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-05 08:14:02,003 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-05 08:14:02,010 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-05 08:14:02,017 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-05 08:14:02,018 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-05 08:14:02,171 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-05 08:14:02,180 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2023-01-05 08:14:02,189 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-05 08:14:02,196 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-05 08:14:02,198 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-05 08:14:02,208 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-05 08:20:36,302 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 08:20:37,241 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:24:05,853 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:24:10,540 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+INFO 2023-01-05 08:25:41,804 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2023-01-05 08:25:41,852 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-01-05 08:25:42,361 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:25:42,366 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:25:42,369 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:28:30,823 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:29:29,315 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-05 08:29:39,150 exception 99 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2023-01-05 08:29:39,228 log 224 Bad Request: /
+WARNING 2023-01-05 08:29:39,228 basehttp 161 "GET / HTTP/1.1" 400 76727
+ERROR 2023-01-05 08:29:40,023 exception 99 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2023-01-05 08:29:40,067 log 224 Bad Request: /favicon.ico
+WARNING 2023-01-05 08:29:40,068 basehttp 161 "GET /favicon.ico HTTP/1.1" 400 76652
+INFO 2023-01-05 08:41:14,214 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:41:18,946 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2023-01-05 08:41:19,418 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-01-05 08:41:22,322 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:41:22,324 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-01-05 08:41:22,332 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2023-01-05 08:41:22,782 log 224 Not Found: /favicon.ico
+WARNING 2023-01-05 08:41:22,793 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2116
+ERROR 2023-01-05 08:44:32,028 exception 99 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2023-01-05 08:44:32,072 log 224 Bad Request: /
+WARNING 2023-01-05 08:44:32,072 basehttp 161 "GET / HTTP/1.1" 400 76727
+ERROR 2023-01-05 08:44:32,886 exception 99 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2023-01-05 08:44:32,958 log 224 Bad Request: /favicon.ico
+WARNING 2023-01-05 08:44:32,959 basehttp 161 "GET /favicon.ico HTTP/1.1" 400 76652
+INFO 2023-01-05 08:44:51,584 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 08:44:52,984 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 08:44:57,157 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2023-01-05 08:44:57,194 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2023-01-05 08:44:57,371 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2023-01-05 08:44:57,372 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2023-01-05 08:44:57,398 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 2023-01-05 08:44:57,587 log 224 Not Found: /favicon.ico
+WARNING 2023-01-05 08:44:57,588 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2116
+INFO 2023-01-05 08:46:55,574 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 08:46:56,541 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 09:01:12,677 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/apps.py changed, reloading.
+INFO 2023-01-05 09:01:13,221 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 09:01:21,361 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-05 09:01:21,923 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-05 09:01:25,177 log 224 Not Found: /register
+WARNING 2023-01-05 09:01:25,178 basehttp 161 "GET /register HTTP/1.1" 404 2213
+WARNING 2023-01-05 09:01:35,997 log 224 Not Found: /user/register
+WARNING 2023-01-05 09:01:35,997 basehttp 161 "GET /user/register HTTP/1.1" 404 2228
+INFO 2023-01-05 09:01:47,012 basehttp 161 "GET /users/register HTTP/1.1" 301 0
+ERROR 2023-01-05 09:01:47,128 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 7, in get
+    return render(request, 'register.html')
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 6, in <module>
+    <link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 15, in root
+    <a href="/" class="reg_logo"><img src="{{ static('images/logo.png') }}"></a>
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 635, in _fail_with_undefined_error
+    raise self._undefined_exception(hint)
+jinja2.exceptions.UndefinedError: 'static' is undefined
+ERROR 2023-01-05 09:01:47,131 basehttp 161 "GET /users/register/ HTTP/1.1" 500 142903
+INFO 2023-01-05 09:15:16,741 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-05 09:15:17,411 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-05 09:15:20,938 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 7, in get
+    return render(request, 'register.html')
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 6, in <module>
+    <link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 15, in root
+    <a href="/" class="reg_logo"><img src="{{ static('images/logo.png') }}"></a>
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 635, in _fail_with_undefined_error
+    raise self._undefined_exception(hint)
+jinja2.exceptions.UndefinedError: 'static' is undefined
+ERROR 2023-01-05 09:15:20,940 basehttp 161 "GET /users/register/ HTTP/1.1" 500 143586
+INFO 2023-01-05 09:25:23,049 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 09:25:23,566 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 09:25:30,784 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 09:25:31,306 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 09:25:33,506 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/apps.py changed, reloading.
+INFO 2023-01-05 09:25:34,103 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-05 09:25:36,645 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 7, in get
+    return render(request, 'register.html')
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 6, in <module>
+    <link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 15, in root
+    <a href="/" class="reg_logo"><img src="{{ static('images/logo.png') }}"></a>
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 635, in _fail_with_undefined_error
+    raise self._undefined_exception(hint)
+jinja2.exceptions.UndefinedError: 'static' is undefined
+ERROR 2023-01-05 09:25:36,647 basehttp 161 "GET /users/register/ HTTP/1.1" 500 143586
+INFO 2023-01-05 09:57:29,197 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-05 09:57:33,086 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 7, in get
+    return render(request, 'register.html')
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 6, in <module>
+    <link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 15, in root
+    <a href="/" class="reg_logo"><img src="{{ static('images/logo.png') }}"></a>
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 635, in _fail_with_undefined_error
+    raise self._undefined_exception(hint)
+jinja2.exceptions.UndefinedError: 'static' is undefined
+ERROR 2023-01-05 09:57:33,088 basehttp 161 "GET /users/register/ HTTP/1.1" 500 143586
+INFO 2023-01-05 09:59:11,376 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 09:59:11,954 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 09:59:50,493 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 09:59:51,183 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:01:41,386 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 10:01:41,985 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:02:38,976 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:04:25,301 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-05 10:04:27,847 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 7, in get
+    return render(request, 'register.html')
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2023-01-05 10:04:27,848 basehttp 161 "GET /users/register/ HTTP/1.1" 500 96300
+INFO 2023-01-05 10:05:31,081 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 10:05:31,912 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:05:33,910 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-05 10:05:36,278 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 7, in get
+    return render(request, 'register.html')
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 6, in <module>
+    <link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/register.html", line 15, in root
+    <a href="/" class="reg_logo"><img src="{{ static('images/logo.png') }}"></a>
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/jinja2/runtime.py", line 635, in _fail_with_undefined_error
+    raise self._undefined_exception(hint)
+jinja2.exceptions.UndefinedError: 'static' is undefined
+ERROR 2023-01-05 10:05:36,281 basehttp 161 "GET /users/register/ HTTP/1.1" 500 143526
+INFO 2023-01-05 10:09:10,029 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 10:09:10,626 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:12:12,023 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:15:51,650 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:16:02,261 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:16:38,327 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:17:32,005 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:17:36,976 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-05 10:17:37,021 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-05 10:17:37,028 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-05 10:17:37,042 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-05 10:17:37,055 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-05 10:17:37,264 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-05 10:17:37,273 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-05 10:17:37,310 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 7825
+INFO 2023-01-05 10:17:37,310 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-05 10:17:37,332 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-05 10:17:37,339 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-05 10:17:37,340 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2023-01-05 10:17:37,345 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-05 10:37:29,520 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-05 10:37:30,065 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:45:28,425 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-05 10:45:29,107 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:49:16,198 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2023-01-05 10:49:16,820 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 10:54:37,575 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2023-01-05 10:54:38,109 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 11:06:14,293 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 11:06:14,851 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 11:47:38,171 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 11:47:39,688 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-05 11:47:52,537 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-05 11:49:17,755 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 12:06:09,576 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 12:37:30,099 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 12:55:49,888 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-05 12:55:51,921 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 12:56:52,827 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-05 12:56:53,608 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 12:59:30,480 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-05 12:59:31,558 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-05 13:00:03,150 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-05 13:00:04,166 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 01:17:12,057 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-06 01:17:13,316 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 01:30:48,400 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 01:56:45,959 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 01:56:49,773 log 224 Not Found: /
+WARNING 2023-01-06 01:56:49,773 basehttp 161 "GET / HTTP/1.1" 404 2280
+WARNING 2023-01-06 01:56:51,099 log 224 Not Found: /favicon.ico
+WARNING 2023-01-06 01:56:51,100 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2331
+WARNING 2023-01-06 01:56:58,438 log 224 Not Found: /users
+WARNING 2023-01-06 01:56:58,439 basehttp 161 "GET /users HTTP/1.1" 404 2313
+INFO 2023-01-06 01:57:11,773 basehttp 161 "GET /users/register HTTP/1.1" 301 0
+INFO 2023-01-06 01:57:11,792 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 01:57:12,005 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 7825
+INFO 2023-01-06 01:57:12,006 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-06 01:57:12,015 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-06 01:57:12,016 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-06 01:57:12,025 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+ERROR 2023-01-06 01:57:25,822 log 224 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 95, in post
+    login(request, user)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 344, in cycle_key
+    self.create()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/contrib/sessions/backends/cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/contrib/sessions/backends/cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/cache/backends/base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2023-01-06 01:57:25,824 basehttp 161 "POST /users/register/ HTTP/1.1" 500 150169
+INFO 2023-01-06 01:58:45,181 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-06 01:58:48,531 views 82 (1062, "Duplicate entry 'test2' for key 'username'")
+INFO 2023-01-06 01:58:48,544 basehttp 161 "POST /users/register/ HTTP/1.1" 200 4889
+ERROR 2023-01-06 01:59:02,160 views 82 (1062, "Duplicate entry 'test2' for key 'username'")
+INFO 2023-01-06 01:59:02,161 basehttp 161 "POST /users/register/ HTTP/1.1" 200 4889
+ERROR 2023-01-06 01:59:16,153 views 82 (1062, "Duplicate entry '17396556501' for key 'mobile'")
+INFO 2023-01-06 01:59:16,154 basehttp 161 "POST /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 01:59:47,334 log 224 Not Found: /users/index/
+WARNING 2023-01-06 01:59:47,335 basehttp 161 "GET /users/index/ HTTP/1.1" 404 2407
+INFO 2023-01-06 02:21:20,371 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-06 02:21:20,956 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 02:22:11,841 log 224 Not Found: /users/usernames/test11/count
+WARNING 2023-01-06 02:22:11,842 basehttp 161 "GET /users/usernames/test11/count HTTP/1.1" 404 2686
+WARNING 2023-01-06 02:22:35,306 log 224 Not Found: /users/usernames/test11/count/
+WARNING 2023-01-06 02:22:35,307 basehttp 161 "GET /users/usernames/test11/count/ HTTP/1.1" 404 2689
+INFO 2023-01-06 02:23:12,093 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-06 02:23:12,628 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 02:23:15,049 log 224 Not Found: /users/usernames/test11/count/
+WARNING 2023-01-06 02:23:15,050 basehttp 161 "GET /users/usernames/test11/count/ HTTP/1.1" 404 2688
+WARNING 2023-01-06 02:23:17,647 log 224 Not Found: /users/usernames/test11/count/
+WARNING 2023-01-06 02:23:17,648 basehttp 161 "GET /users/usernames/test11/count/ HTTP/1.1" 404 2688
+INFO 2023-01-06 02:23:31,040 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-06 02:23:31,604 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 02:23:36,251 log 224 Not Found: /users/usernames/test11/count/
+WARNING 2023-01-06 02:23:36,252 basehttp 161 "GET /users/usernames/test11/count/ HTTP/1.1" 404 2688
+INFO 2023-01-06 02:23:45,211 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 02:23:47,881 log 224 Not Found: /users/usernames/test11/count/
+WARNING 2023-01-06 02:23:47,882 basehttp 161 "GET /users/usernames/test11/count/ HTTP/1.1" 404 2688
+WARNING 2023-01-06 02:24:18,070 log 224 Not Found: /users/usernames/test2/count/
+WARNING 2023-01-06 02:24:18,070 basehttp 161 "GET /users/usernames/test2/count/ HTTP/1.1" 404 2685
+INFO 2023-01-06 02:25:02,600 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-06 02:25:03,169 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 02:25:05,491 basehttp 161 "GET /users/usernames/test2/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 02:25:12,278 basehttp 161 "GET /users/usernames/test12/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 02:36:25,769 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 02:36:40,802 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 02:36:50,510 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 02:37:02,710 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 02:37:05,684 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 02:37:06,218 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-06 03:05:21,267 log 224 Not Found: /
+WARNING 2023-01-06 03:05:21,267 basehttp 161 "GET / HTTP/1.1" 404 2280
+WARNING 2023-01-06 03:05:21,274 log 224 Not Found: /
+WARNING 2023-01-06 03:05:21,274 basehttp 161 "GET / HTTP/1.1" 404 2280
+INFO 2023-01-06 03:05:27,799 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 03:05:27,853 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-06 03:05:27,861 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-06 03:05:27,862 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-06 03:05:27,867 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-06 03:05:27,995 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-06 03:05:28,001 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-06 03:05:28,025 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8449
+INFO 2023-01-06 03:05:28,029 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-06 03:05:28,030 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-06 03:05:28,032 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-06 03:05:28,050 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-06 03:05:28,079 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2023-01-06 03:05:29,414 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-06 03:05:29,414 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 2361
+WARNING 2023-01-06 03:05:31,211 log 224 Not Found: /usernames/test1/count/
+WARNING 2023-01-06 03:05:31,212 basehttp 161 "GET /usernames/test1/count/ HTTP/1.1" 404 2364
+WARNING 2023-01-06 03:05:33,751 log 224 Not Found: /usernames/test2/count/
+WARNING 2023-01-06 03:05:33,752 basehttp 161 "GET /usernames/test2/count/ HTTP/1.1" 404 2364
+WARNING 2023-01-06 03:05:36,637 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-06 03:05:51,945 log 224 Not Found: /usernames/test2/count/
+WARNING 2023-01-06 03:05:51,946 basehttp 161 "GET /usernames/test2/count/ HTTP/1.1" 404 2364
+INFO 2023-01-06 03:05:56,841 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 03:05:57,260 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-06 03:07:21,522 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-06 03:07:21,523 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 2361
+WARNING 2023-01-06 03:07:34,104 log 224 Not Found: /usernames/test1/count/
+WARNING 2023-01-06 03:07:34,105 basehttp 161 "GET /usernames/test1/count/ HTTP/1.1" 404 2364
+WARNING 2023-01-06 03:07:43,580 log 224 Not Found: /usernames/test11/count/
+WARNING 2023-01-06 03:07:43,582 basehttp 161 "GET /usernames/test11/count/ HTTP/1.1" 404 2367
+WARNING 2023-01-06 03:08:40,942 log 224 Not Found: /usernames/test2/count/
+WARNING 2023-01-06 03:08:40,942 basehttp 161 "GET /usernames/test2/count/ HTTP/1.1" 404 2364
+INFO 2023-01-06 03:08:47,636 basehttp 161 "GET /users/usernames/test2/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 03:09:21,543 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 03:09:21,587 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-06 03:09:21,589 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-06 03:09:21,623 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-06 03:09:21,627 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-06 03:09:22,068 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-06 03:09:22,076 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-06 03:09:22,105 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8446
+INFO 2023-01-06 03:09:22,107 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-06 03:09:22,146 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2023-01-06 03:09:22,151 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 03:09:22,165 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-06 03:09:22,166 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-06 03:09:22,167 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2023-01-06 03:09:27,514 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-06 03:09:27,515 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 2361
+WARNING 2023-01-06 03:09:29,579 log 224 Not Found: /usernames/test2/count/
+WARNING 2023-01-06 03:09:29,580 basehttp 161 "GET /usernames/test2/count/ HTTP/1.1" 404 2364
+WARNING 2023-01-06 03:09:45,528 log 224 Not Found: /usernames/test22/count/
+WARNING 2023-01-06 03:09:45,529 basehttp 161 "GET /usernames/test22/count/ HTTP/1.1" 404 2367
+WARNING 2023-01-06 03:09:50,781 log 224 Not Found: /usernames/test2/count/
+WARNING 2023-01-06 03:09:50,781 basehttp 161 "GET /usernames/test2/count/ HTTP/1.1" 404 2364
+INFO 2023-01-06 03:10:21,509 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 03:10:21,951 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8452
+WARNING 2023-01-06 03:10:22,042 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 03:10:22,920 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 03:10:25,604 basehttp 161 "GET /users/usernames/test2/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 03:28:51,736 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-06 03:28:52,591 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 03:30:17,490 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2023-01-06 03:30:18,298 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 03:31:26,072 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-06 03:31:26,613 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 05:42:18,540 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2023-01-06 05:42:19,542 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:04:38,350 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2023-01-06 06:04:38,945 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:04:55,287 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2023-01-06 06:04:55,882 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 06:05:17,280 log 224 Not Found: /verifications/images_code/123/
+WARNING 2023-01-06 06:05:17,283 basehttp 161 "GET /verifications/images_code/123/ HTTP/1.1" 404 2578
+INFO 2023-01-06 06:05:36,599 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:05:37,234 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 06:05:38,403 log 224 Not Found: /verifications/images_code/123/
+WARNING 2023-01-06 06:05:38,404 basehttp 161 "GET /verifications/images_code/123/ HTTP/1.1" 404 2577
+WARNING 2023-01-06 06:05:51,578 log 224 Not Found: /verifications/
+WARNING 2023-01-06 06:05:51,579 basehttp 161 "GET /verifications/ HTTP/1.1" 404 2529
+WARNING 2023-01-06 06:06:45,556 log 224 Not Found: /
+WARNING 2023-01-06 06:06:45,557 basehttp 161 "GET / HTTP/1.1" 404 2394
+WARNING 2023-01-06 06:06:50,190 log 224 Not Found: /verifications/
+WARNING 2023-01-06 06:06:50,191 basehttp 161 "GET /verifications/ HTTP/1.1" 404 2529
+INFO 2023-01-06 06:07:16,303 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:07:16,918 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:07:25,219 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:07:25,785 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 06:07:29,046 log 224 Not Found: /verifications/images_code/123/
+WARNING 2023-01-06 06:07:29,047 basehttp 161 "GET /verifications/images_code/123/ HTTP/1.1" 404 2579
+INFO 2023-01-06 06:07:41,219 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:07:41,824 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:07:43,437 basehttp 161 "GET /verifications/images_code/123/ HTTP/1.1" 200 3271
+ERROR 2023-01-06 06:07:46,242 log 224 Internal Server Error: /verifications/images_code/123/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 55, in get
+    redis_conn.setex('img_%s' % uuid, 120, text)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-06 06:07:46,243 basehttp 161 "GET /verifications/images_code/123/ HTTP/1.1" 500 108147
+ERROR 2023-01-06 06:07:55,247 log 224 Internal Server Error: /verifications/images_code/1232/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 55, in get
+    redis_conn.setex('img_%s' % uuid, 120, text)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-06 06:07:55,248 basehttp 161 "GET /verifications/images_code/1232/ HTTP/1.1" 500 108057
+INFO 2023-01-06 06:09:37,318 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2023-01-06 06:09:38,260 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-06 06:13:01,386 log 224 Internal Server Error: /verifications/images_code/1232/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 58, in get
+    redis_conn.setex('img_%s' % uuid, IMAGE_CODE_EXPIRE_TIME, text)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/meiduo_mall/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-06 06:13:01,388 basehttp 161 "GET /verifications/images_code/1232/ HTTP/1.1" 500 108245
+INFO 2023-01-06 06:13:19,239 basehttp 161 "GET /verifications/images_code/1232/ HTTP/1.1" 200 3101
+INFO 2023-01-06 06:13:20,274 basehttp 161 "GET /verifications/images_code/1232/ HTTP/1.1" 200 3320
+INFO 2023-01-06 06:14:33,973 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:14:34,223 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8467
+INFO 2023-01-06 06:14:36,028 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 06:14:44,540 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+WARNING 2023-01-06 06:15:08,873 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:16:00,212 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:16:00,281 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-06 06:16:00,806 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:16:05,853 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 06:16:08,356 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 06:16:08,835 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:16:16,379 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:16:22,395 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:16:22,467 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-06 06:16:22,469 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-06 06:16:22,471 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-06 06:16:22,496 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-06 06:16:23,038 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-06 06:16:23,053 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-06 06:16:23,072 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8467
+INFO 2023-01-06 06:16:23,076 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-06 06:16:23,092 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-06 06:16:23,093 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-06 06:16:23,104 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2023-01-06 06:16:23,128 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2023-01-06 06:16:23,135 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:16:24,616 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 06:17:49,776 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:17:50,345 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:17:52,927 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:17:53,371 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-06 06:17:53,422 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:17:55,777 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 06:17:56,190 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:17:57,250 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 06:19:18,837 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:19:19,041 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8474
+WARNING 2023-01-06 06:19:19,325 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:19:22,142 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 06:19:41,599 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:19:42,067 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8467
+WARNING 2023-01-06 06:19:42,102 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:19:48,776 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:19:48,815 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-06 06:19:48,826 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-06 06:19:48,851 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-06 06:19:48,862 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-06 06:19:49,351 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-06 06:19:49,374 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-06 06:19:49,396 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-06 06:19:49,397 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-06 06:19:49,398 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8467
+WARNING 2023-01-06 06:19:49,433 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:19:49,481 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-06 06:19:49,485 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2023-01-06 06:19:49,488 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2023-01-06 06:19:53,576 log 224 Not Found: /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/
+WARNING 2023-01-06 06:19:53,576 basehttp 161 "GET /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/ HTTP/1.1" 404 2678
+INFO 2023-01-06 06:20:32,083 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:20:32,683 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:21:07,953 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-06 06:21:09,974 log 224 Not Found: /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/
+WARNING 2023-01-06 06:21:09,976 basehttp 161 "GET /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/ HTTP/1.1" 404 2678
+WARNING 2023-01-06 06:21:12,777 log 224 Not Found: /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/
+WARNING 2023-01-06 06:21:12,778 basehttp 161 "GET /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/ HTTP/1.1" 404 2678
+INFO 2023-01-06 06:21:46,564 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-06 06:21:47,214 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:21:49,655 basehttp 161 "GET /verifications/image_codes/d7dc5d82-84b1-49b9-a35f-e124b1701957/ HTTP/1.1" 200 3370
+INFO 2023-01-06 06:21:52,583 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:21:52,718 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2023-01-06 06:21:52,992 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-06 06:21:53,069 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:21:54,818 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 06:21:55,221 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:21:57,950 basehttp 161 "GET /verifications/image_codes/d2b2d69a-4c0a-4b31-a791-e088640abaa0/ HTTP/1.1" 200 3051
+INFO 2023-01-06 06:22:12,033 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+INFO 2023-01-06 06:24:02,975 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:24:03,027 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-06 06:24:03,031 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-06 06:24:03,049 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2023-01-06 06:24:03,050 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-06 06:24:03,380 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-06 06:24:03,398 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-06 06:24:03,423 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2023-01-06 06:24:03,423 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8467
+INFO 2023-01-06 06:24:03,423 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-06 06:24:03,437 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-06 06:24:03,457 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2023-01-06 06:24:03,458 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2023-01-06 06:24:03,460 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:24:28,891 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2023-01-06 06:24:29,353 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:24:31,321 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:24:31,707 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2023-01-06 06:24:31,715 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-06 06:24:31,757 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:25:02,904 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-06 06:25:04,837 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:25:05,345 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2023-01-06 06:25:05,352 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-06 06:25:05,476 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-06 06:35:18,831 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:35:19,020 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2023-01-06 06:35:19,265 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-06 06:35:19,326 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-06 06:35:32,772 log 224 Not Found: /favicon.ico
+WARNING 2023-01-06 06:35:32,774 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2445
+INFO 2023-01-06 06:35:36,869 basehttp 161 "GET /users/register/ HTTP/1.1" 200 4889
+INFO 2023-01-06 06:35:38,494 basehttp 161 "GET /users/usernames/test/count/ HTTP/1.1" 200 23
+WARNING 2023-01-06 06:35:40,492 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:42:55,517 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 00:42:56,439 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 00:43:28,932 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-07 00:43:29,503 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 00:43:48,854 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2023-01-07 00:43:49,511 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 00:44:44,023 basehttp 161 "GET /users/register/ HTTP/1.1" 200 3966
+INFO 2023-01-07 00:44:44,293 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2023-01-07 00:44:44,314 log 224 Not Found: /users/static/images/logo.png
+WARNING 2023-01-07 00:44:44,319 basehttp 161 "GET /users/static/images/logo.png HTTP/1.1" 404 3310
+INFO 2023-01-07 00:44:44,747 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2023-01-07 00:44:44,763 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-07 00:44:44,932 log 224 Not Found: /users/static/images/logo.png
+WARNING 2023-01-07 00:44:44,934 basehttp 161 "GET /users/static/images/logo.png HTTP/1.1" 404 3310
+INFO 2023-01-07 00:44:45,032 basehttp 161 "GET /verifications/image_codes/fda9e287-b95f-47bb-a046-d056f301e935/ HTTP/1.1" 200 3366
+INFO 2023-01-07 00:44:48,988 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3054
+WARNING 2023-01-07 00:44:49,100 log 224 Not Found: /users/static/css/main.css
+WARNING 2023-01-07 00:44:49,104 basehttp 161 "GET /users/static/css/main.css HTTP/1.1" 404 3301
+WARNING 2023-01-07 00:44:49,114 log 224 Not Found: /users/static/js/host.js
+WARNING 2023-01-07 00:44:49,125 basehttp 161 "GET /users/static/js/host.js HTTP/1.1" 404 3295
+WARNING 2023-01-07 00:44:49,117 log 224 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2023-01-07 00:44:49,129 log 224 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2023-01-07 00:44:49,130 basehttp 161 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 3313
+WARNING 2023-01-07 00:44:49,131 basehttp 161 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 3331
+WARNING 2023-01-07 00:44:49,449 log 224 Not Found: /users/static/images/logo02.png
+WARNING 2023-01-07 00:44:49,455 log 224 Not Found: /users/static/js/common.js
+WARNING 2023-01-07 00:44:49,465 basehttp 161 "GET /users/static/js/common.js HTTP/1.1" 404 3301
+WARNING 2023-01-07 00:44:49,460 log 224 Not Found: /users/static/js/host.js
+WARNING 2023-01-07 00:44:49,465 basehttp 161 "GET /users/static/js/host.js HTTP/1.1" 404 3295
+WARNING 2023-01-07 00:44:49,464 log 224 Not Found: /users/static/js/login.js
+WARNING 2023-01-07 00:44:49,468 basehttp 161 "GET /users/static/images/logo02.png HTTP/1.1" 404 3316
+WARNING 2023-01-07 00:44:49,469 basehttp 161 "GET /users/static/js/login.js HTTP/1.1" 404 3298
+INFO 2023-01-07 00:44:54,784 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3054
+WARNING 2023-01-07 00:44:54,845 log 224 Not Found: /users/static/css/main.css
+WARNING 2023-01-07 00:44:54,864 basehttp 161 "GET /users/static/css/main.css HTTP/1.1" 404 3301
+WARNING 2023-01-07 00:44:54,857 log 224 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2023-01-07 00:44:54,865 basehttp 161 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 3313
+WARNING 2023-01-07 00:44:54,863 log 224 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2023-01-07 00:44:54,867 basehttp 161 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 3331
+WARNING 2023-01-07 00:44:54,852 log 224 Not Found: /users/static/js/host.js
+WARNING 2023-01-07 00:44:54,871 basehttp 161 "GET /users/static/js/host.js HTTP/1.1" 404 3295
+WARNING 2023-01-07 00:44:55,180 log 224 Not Found: /users/static/images/logo02.png
+WARNING 2023-01-07 00:44:55,193 basehttp 161 "GET /users/static/images/logo02.png HTTP/1.1" 404 3316
+WARNING 2023-01-07 00:44:55,187 log 224 Not Found: /users/static/js/common.js
+WARNING 2023-01-07 00:44:55,195 basehttp 161 "GET /users/static/js/common.js HTTP/1.1" 404 3301
+WARNING 2023-01-07 00:44:55,198 log 224 Not Found: /users/static/js/host.js
+WARNING 2023-01-07 00:44:55,204 basehttp 161 "GET /users/static/js/host.js HTTP/1.1" 404 3295
+WARNING 2023-01-07 00:44:55,203 log 224 Not Found: /users/static/js/login.js
+WARNING 2023-01-07 00:44:55,206 basehttp 161 "GET /users/static/js/login.js HTTP/1.1" 404 3298
+WARNING 2023-01-07 00:44:56,844 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:44:57,827 basehttp 161 "GET /users/register/ HTTP/1.1" 200 3966
+WARNING 2023-01-07 00:44:57,866 log 224 Not Found: /users/static/images/logo.png
+WARNING 2023-01-07 00:44:57,866 basehttp 161 "GET /users/static/images/logo.png HTTP/1.1" 404 3310
+WARNING 2023-01-07 00:44:58,215 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-07 00:44:58,254 log 224 Not Found: /users/static/images/logo.png
+WARNING 2023-01-07 00:44:58,266 basehttp 161 "GET /users/static/images/logo.png HTTP/1.1" 404 3310
+INFO 2023-01-07 00:44:58,267 basehttp 161 "GET /verifications/image_codes/a40f0e71-d8b1-4c17-bb26-75f1135357d4/ HTTP/1.1" 200 3542
+WARNING 2023-01-07 00:44:59,427 log 224 Not Found: /users/static/css/main.css
+WARNING 2023-01-07 00:44:59,428 basehttp 161 "GET /users/static/css/main.css HTTP/1.1" 404 3301
+INFO 2023-01-07 00:45:00,884 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3054
+WARNING 2023-01-07 00:45:00,940 log 224 Not Found: /users/static/css/main.css
+WARNING 2023-01-07 00:45:00,941 basehttp 161 "GET /users/static/css/main.css HTTP/1.1" 404 3301
+WARNING 2023-01-07 00:45:00,953 log 224 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2023-01-07 00:45:00,961 log 224 Not Found: /users/static/js/host.js
+WARNING 2023-01-07 00:45:00,963 basehttp 161 "GET /users/static/js/host.js HTTP/1.1" 404 3295
+WARNING 2023-01-07 00:45:00,963 basehttp 161 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 3313
+WARNING 2023-01-07 00:45:00,977 log 224 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2023-01-07 00:45:00,978 basehttp 161 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 3331
+WARNING 2023-01-07 00:45:01,384 log 224 Not Found: /users/static/js/common.js
+WARNING 2023-01-07 00:45:01,394 log 224 Not Found: /users/static/js/login.js
+WARNING 2023-01-07 00:45:01,396 basehttp 161 "GET /users/static/js/login.js HTTP/1.1" 404 3298
+WARNING 2023-01-07 00:45:01,409 basehttp 161 "GET /users/static/js/common.js HTTP/1.1" 404 3301
+WARNING 2023-01-07 00:45:01,436 log 224 Not Found: /users/static/js/host.js
+WARNING 2023-01-07 00:45:01,440 basehttp 161 "GET /users/static/js/host.js HTTP/1.1" 404 3295
+WARNING 2023-01-07 00:45:01,439 log 224 Not Found: /users/static/images/logo02.png
+WARNING 2023-01-07 00:45:01,441 basehttp 161 "GET /users/static/images/logo02.png HTTP/1.1" 404 3316
+INFO 2023-01-07 00:49:00,517 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+WARNING 2023-01-07 00:49:01,034 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:49:16,291 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+WARNING 2023-01-07 00:49:16,679 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:49:21,391 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+WARNING 2023-01-07 00:49:21,800 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:51:23,965 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+WARNING 2023-01-07 00:51:24,464 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:51:30,944 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 00:51:31,010 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 00:51:31,014 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 00:51:31,021 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 00:51:31,024 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 00:51:31,026 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 00:51:31,484 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 00:51:31,517 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-07 00:51:31,553 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2023-01-07 00:51:31,572 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 00:51:31,637 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-07 00:51:31,640 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-07 00:51:31,653 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-07 00:54:27,706 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 00:54:43,409 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 00:54:43,880 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2023-01-07 00:54:44,057 log 224 Not Found: /favicon.ico
+WARNING 2023-01-07 00:54:44,057 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2445
+INFO 2023-01-07 01:48:03,834 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 01:48:04,822 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 01:50:13,291 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 02:00:26,016 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-01-07 02:03:59,931 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-01-07 02:12:14,667 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 02:12:27,249 basehttp 161 "GET /users/login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 02:12:27,502 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2023-01-07 02:54:13,423 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-07 02:54:14,036 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 02:58:02,203 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 02:58:32,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:04:30,840 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-07 03:04:31,378 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:05:21,668 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:06:33,441 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-07 03:06:34,022 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:10:59,408 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 03:10:59,970 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:15:13,218 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:26:16,137 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/apps.py changed, reloading.
+INFO 2023-01-07 03:26:16,605 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:26:47,915 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/contents/apps.py changed, reloading.
+INFO 2023-01-07 03:26:48,625 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:28:31,913 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:30:24,013 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/migrations/0001_initial.py changed, reloading.
+INFO 2023-01-07 03:30:24,527 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:30:37,542 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:32:14,590 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-07 03:32:15,868 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 03:32:22,447 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-07 03:35:52,965 log 224 Not Found: /users/login/
+WARNING 2023-01-07 03:35:52,966 basehttp 161 "GET /users/login/ HTTP/1.1" 404 3590
+INFO 2023-01-07 03:36:11,424 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 03:36:11,698 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2023-01-07 03:36:16,278 log 224 Bad Request: /login/
+WARNING 2023-01-07 03:36:16,279 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2023-01-07 03:36:28,223 basehttp 161 "GET /register/ HTTP/1.1" 200 3966
+INFO 2023-01-07 03:36:28,428 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8463
+INFO 2023-01-07 03:36:28,457 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-07 03:36:28,458 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2023-01-07 03:36:29,479 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-07 03:36:29,479 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 3617
+INFO 2023-01-07 03:40:22,279 basehttp 161 "GET /register/ HTTP/1.1" 200 3964
+WARNING 2023-01-07 03:40:24,176 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-07 03:40:24,176 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 3617
+WARNING 2023-01-07 03:40:26,118 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 03:40:46,233 basehttp 161 "GET /register/ HTTP/1.1" 200 3964
+INFO 2023-01-07 03:40:46,318 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 03:40:46,328 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 03:40:46,340 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 03:40:46,346 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 03:40:46,836 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 03:40:46,863 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 03:40:46,879 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8463
+INFO 2023-01-07 03:40:46,883 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-07 03:40:46,885 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 03:40:46,931 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-07 03:40:46,932 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2023-01-07 03:40:46,937 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 03:40:47,200 basehttp 161 "GET /image_codes/3a3c83e2-0774-41ed-9dda-3c2fcda6b732/ HTTP/1.1" 200 3065
+WARNING 2023-01-07 03:40:47,948 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-07 03:40:47,949 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 3617
+ERROR 2023-01-07 03:40:48,111 log 224 Internal Server Error: /image_codes/a0df0d30-6afa-4893-8904-1ea1db93e541/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:48,114 basehttp 161 "GET /image_codes/a0df0d30-6afa-4893-8904-1ea1db93e541/ HTTP/1.1" 500 108734
+ERROR 2023-01-07 03:40:48,822 log 224 Internal Server Error: /image_codes/a5dbb05e-9322-4433-8420-7d5523d15cce/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:48,823 basehttp 161 "GET /image_codes/a5dbb05e-9322-4433-8420-7d5523d15cce/ HTTP/1.1" 500 108743
+ERROR 2023-01-07 03:40:49,481 log 224 Internal Server Error: /image_codes/e3455c0e-ee37-4b63-bf6a-710746787225/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:49,482 basehttp 161 "GET /image_codes/e3455c0e-ee37-4b63-bf6a-710746787225/ HTTP/1.1" 500 108745
+ERROR 2023-01-07 03:40:49,670 log 224 Internal Server Error: /image_codes/91250ce3-4613-48d1-b26f-03fef624cf02/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:49,672 basehttp 161 "GET /image_codes/91250ce3-4613-48d1-b26f-03fef624cf02/ HTTP/1.1" 500 108740
+ERROR 2023-01-07 03:40:49,869 log 224 Internal Server Error: /image_codes/c6d8da24-23fb-4c02-a39f-c77d90eb8361/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:49,870 basehttp 161 "GET /image_codes/c6d8da24-23fb-4c02-a39f-c77d90eb8361/ HTTP/1.1" 500 108749
+INFO 2023-01-07 03:40:49,876 basehttp 75 - Broken pipe from ('127.0.0.1', 46162)
+
+ERROR 2023-01-07 03:40:51,193 log 224 Internal Server Error: /image_codes/1caa23f6-93f3-49cf-877e-f17f5bc94eb3/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:51,195 basehttp 161 "GET /image_codes/1caa23f6-93f3-49cf-877e-f17f5bc94eb3/ HTTP/1.1" 500 108732
+ERROR 2023-01-07 03:40:51,759 log 224 Internal Server Error: /image_codes/0ab014cf-69f3-4a74-be2e-6952a0b92fbf/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:51,760 basehttp 161 "GET /image_codes/0ab014cf-69f3-4a74-be2e-6952a0b92fbf/ HTTP/1.1" 500 108736
+ERROR 2023-01-07 03:40:52,328 log 224 Internal Server Error: /image_codes/834be101-e4c4-420b-a552-f56321ca13a5/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/verifications/views.py", line 56, in get
+    redis_conn.setex('img_%s'%uuid,IMAGE_CODE_EXPIRE_TIME,text)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 775, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/redis/connection.py", line 642, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.  
+ERROR 2023-01-07 03:40:52,329 basehttp 161 "GET /image_codes/834be101-e4c4-420b-a552-f56321ca13a5/ HTTP/1.1" 500 108779
+INFO 2023-01-07 03:45:16,779 basehttp 161 "GET /register/ HTTP/1.1" 200 3964
+INFO 2023-01-07 03:45:16,822 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 03:45:16,823 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 03:45:16,847 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 03:45:16,865 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 03:45:17,354 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 03:45:17,368 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 03:45:17,381 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 03:45:17,383 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8463
+INFO 2023-01-07 03:45:17,390 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2023-01-07 03:45:17,410 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 03:45:17,426 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2023-01-07 03:45:17,427 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-07 03:45:17,592 basehttp 161 "GET /image_codes/e33962a8-d167-4750-aa53-2174153fd2a8/ HTTP/1.1" 200 2796
+WARNING 2023-01-07 03:45:18,358 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-07 03:45:18,359 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 3617
+INFO 2023-01-07 03:45:18,419 basehttp 161 "GET /image_codes/0b9427ba-6c24-4061-8ae2-f4cf0b47812b/ HTTP/1.1" 200 3195
+INFO 2023-01-07 03:45:18,887 basehttp 161 "GET /image_codes/38dd2117-6937-4bf3-b3cb-c6bbfec9f07d/ HTTP/1.1" 200 2889
+INFO 2023-01-07 03:45:19,065 basehttp 161 "GET /image_codes/5ff0b55a-1f61-4d84-90b5-0ae9a8abfa37/ HTTP/1.1" 200 3204
+INFO 2023-01-07 03:45:19,224 basehttp 161 "GET /image_codes/0ac729b3-c795-4a3e-a737-b39814f95aca/ HTTP/1.1" 200 3120
+INFO 2023-01-07 03:45:19,385 basehttp 161 "GET /image_codes/2b3c3f8a-f7f6-43a8-9c95-80febf9ccc45/ HTTP/1.1" 200 3376
+INFO 2023-01-07 03:45:19,538 basehttp 161 "GET /image_codes/96166714-8dff-493f-abd1-32a8eee24744/ HTTP/1.1" 200 3099
+INFO 2023-01-07 03:45:19,674 basehttp 161 "GET /image_codes/24df9424-1048-4bc4-9fdd-df379ebc55be/ HTTP/1.1" 200 3135
+WARNING 2023-01-07 03:45:26,326 log 224 Not Found: /usernames/test/count/
+WARNING 2023-01-07 03:45:26,327 basehttp 161 "GET /usernames/test/count/ HTTP/1.1" 404 3617
+INFO 2023-01-07 03:45:29,285 basehttp 161 "GET /usernames/test123/count/ HTTP/1.1" 200 23
+INFO 2023-01-07 03:45:46,256 basehttp 161 "GET /usernames/test123/count/ HTTP/1.1" 200 23
+INFO 2023-01-07 03:45:46,423 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+ERROR 2023-01-07 03:45:46,512 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 11, in get
+    return render(request,'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 03:45:46,513 basehttp 161 "GET / HTTP/1.1" 500 129416
+INFO 2023-01-07 03:52:07,897 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py changed, reloading.
+INFO 2023-01-07 03:52:09,161 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 03:52:14,872 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 03:52:14,873 basehttp 161 "GET / HTTP/1.1" 500 129192
+WARNING 2023-01-07 03:52:30,367 log 224 Not Found: /index
+WARNING 2023-01-07 03:52:30,368 basehttp 161 "GET /index HTTP/1.1" 404 3569
+WARNING 2023-01-07 03:52:45,249 log 224 Not Found: /contents/index
+WARNING 2023-01-07 03:52:45,250 basehttp 161 "GET /contents/index HTTP/1.1" 404 3596
+INFO 2023-01-07 03:54:43,666 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 03:54:44,296 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 03:54:46,975 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 03:54:46,977 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 03:55:20,611 basehttp 161 "GET /center/ HTTP/1.1" 200 5074
+INFO 2023-01-07 03:55:20,719 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 03:55:20,752 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 03:55:20,757 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 03:55:20,769 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 03:55:20,770 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 03:55:20,770 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 03:55:21,058 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 03:55:21,060 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+WARNING 2023-01-07 03:55:21,080 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 03:55:21,088 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-07 03:55:21,089 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2023-01-07 03:55:21,089 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-07 03:55:21,144 log 224 Not Found: /browse_histories/
+WARNING 2023-01-07 03:55:21,145 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+ERROR 2023-01-07 03:56:09,930 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 03:56:09,932 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 06:25:26,409 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:28:41,559 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:28:51,587 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 06:28:56,635 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:28:56,637 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 06:33:45,502 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 06:33:46,578 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 06:33:50,808 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:33:50,811 basehttp 161 "GET / HTTP/1.1" 500 129032
+ERROR 2023-01-07 06:33:53,910 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:33:53,914 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 06:40:08,274 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/contents/apps.py changed, reloading.
+INFO 2023-01-07 06:40:08,816 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:40:11,984 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/contents/apps.py changed, reloading.
+INFO 2023-01-07 06:40:12,648 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:42:19,814 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 06:42:20,425 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:48:23,710 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 06:48:24,360 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 06:48:27,527 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:48:27,529 basehttp 161 "GET / HTTP/1.1" 500 129032
+ERROR 2023-01-07 06:48:46,280 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:48:46,281 basehttp 161 "GET / HTTP/1.1" 500 129032
+ERROR 2023-01-07 06:48:52,273 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:48:52,274 basehttp 161 "GET / HTTP/1.1" 500 129032
+WARNING 2023-01-07 06:49:00,023 log 224 Not Found: /users/register/
+WARNING 2023-01-07 06:49:00,023 basehttp 161 "GET /users/register/ HTTP/1.1" 404 3599
+INFO 2023-01-07 06:49:06,191 basehttp 161 "GET /register/ HTTP/1.1" 200 3964
+INFO 2023-01-07 06:49:06,254 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 06:49:06,259 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 06:49:06,266 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 06:49:06,268 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 06:49:06,569 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 06:49:06,584 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 06:49:06,607 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8463
+INFO 2023-01-07 06:49:06,608 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 06:49:06,613 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-07 06:49:06,624 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-07 06:49:06,626 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2023-01-07 06:49:06,635 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 06:49:06,781 basehttp 161 "GET /image_codes/b35c73b2-8d0d-405d-95f5-2ecb872c68c5/ HTTP/1.1" 200 3207
+INFO 2023-01-07 06:49:55,683 basehttp 161 "GET /register/ HTTP/1.1" 200 3964
+INFO 2023-01-07 06:49:55,718 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 06:49:55,727 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 06:49:55,736 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 06:49:55,741 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 06:49:56,161 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 06:49:56,162 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 06:49:56,193 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 8463
+INFO 2023-01-07 06:49:56,195 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 06:49:56,213 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2023-01-07 06:49:56,214 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2023-01-07 06:49:56,231 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2023-01-07 06:49:56,234 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 06:49:56,279 basehttp 161 "GET /image_codes/4193ae02-09bc-4743-a617-397e4ae0a54e/ HTTP/1.1" 200 3347
+ERROR 2023-01-07 06:49:59,329 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:49:59,330 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 06:50:44,953 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/utils/jinjia2_env.py changed, reloading.
+INFO 2023-01-07 06:50:45,541 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:50:52,861 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/utils/jinjia2_env.py changed, reloading.
+INFO 2023-01-07 06:50:53,474 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 06:50:54,581 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:50:54,583 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 06:51:06,873 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 06:51:07,447 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 06:55:25,597 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/contents/urls.py changed, reloading.
+INFO 2023-01-07 06:55:26,159 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-07 06:55:29,873 log 224 Not Found: /
+WARNING 2023-01-07 06:55:29,878 basehttp 161 "GET / HTTP/1.1" 404 3542
+INFO 2023-01-07 06:55:35,902 basehttp 161 "GET /index HTTP/1.1" 301 0
+ERROR 2023-01-07 06:55:36,007 log 224 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:55:36,009 basehttp 161 "GET /index/ HTTP/1.1" 500 129152
+WARNING 2023-01-07 06:57:38,635 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 06:57:38,636 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3599
+INFO 2023-01-07 06:58:32,930 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/contents/urls.py changed, reloading.
+INFO 2023-01-07 06:58:33,674 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-07 06:58:44,513 log 224 Not Found: /index/
+WARNING 2023-01-07 06:58:44,513 basehttp 161 "GET /index/ HTTP/1.1" 404 3572
+ERROR 2023-01-07 06:58:48,233 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 86, in <module>
+    {% for content in contents.index_lbt %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'contents' is undefined
+ERROR 2023-01-07 06:58:48,237 basehttp 161 "GET / HTTP/1.1" 500 129032
+INFO 2023-01-07 07:10:33,897 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-07 07:10:38,419 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 95, in <module>
+    {% for group in categories.values() %}
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'categories' is undefined
+ERROR 2023-01-07 07:10:38,420 basehttp 161 "GET / HTTP/1.1" 500 128999
+INFO 2023-01-07 07:12:26,719 basehttp 161 "GET / HTTP/1.1" 200 29797
+INFO 2023-01-07 07:12:26,763 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 07:12:26,770 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 07:12:26,774 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 07:12:26,796 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 07:12:26,797 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 07:12:26,800 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 07:12:26,811 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-07 07:12:27,214 basehttp 161 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2023-01-07 07:12:27,214 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 1388
+INFO 2023-01-07 07:12:27,250 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 07:12:27,260 basehttp 161 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2023-01-07 07:12:27,263 basehttp 161 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2023-01-07 07:12:27,264 basehttp 161 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2023-01-07 07:12:27,272 basehttp 161 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2023-01-07 07:12:27,288 basehttp 161 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2023-01-07 07:12:27,320 basehttp 161 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2023-01-07 07:12:27,325 basehttp 161 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2023-01-07 07:12:27,325 basehttp 161 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2023-01-07 07:12:27,325 basehttp 161 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2023-01-07 07:12:27,325 basehttp 161 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+WARNING 2023-01-07 07:12:27,330 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 07:12:27,336 basehttp 161 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2023-01-07 07:12:27,339 basehttp 161 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2023-01-07 07:12:27,344 basehttp 161 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2023-01-07 07:12:27,345 basehttp 161 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2023-01-07 07:12:27,351 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-07 07:12:27,359 basehttp 161 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+WARNING 2023-01-07 07:12:27,490 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 07:12:27,490 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 07:12:30,759 basehttp 161 "GET / HTTP/1.1" 200 29797
+INFO 2023-01-07 07:12:30,784 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 07:12:30,784 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 07:12:30,792 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 07:12:30,795 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 07:12:30,800 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 07:12:30,801 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-07 07:12:30,802 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 07:12:31,247 basehttp 161 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2023-01-07 07:12:31,254 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 1388
+INFO 2023-01-07 07:12:31,315 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-07 07:12:31,334 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 07:12:31,337 basehttp 161 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2023-01-07 07:12:31,338 basehttp 161 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2023-01-07 07:12:31,340 basehttp 161 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2023-01-07 07:12:31,340 basehttp 161 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2023-01-07 07:12:31,345 basehttp 161 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2023-01-07 07:12:31,366 basehttp 161 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2023-01-07 07:12:31,381 basehttp 161 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2023-01-07 07:12:31,381 basehttp 161 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2023-01-07 07:12:31,385 basehttp 161 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2023-01-07 07:12:31,386 basehttp 161 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2023-01-07 07:12:31,387 basehttp 161 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2023-01-07 07:12:31,402 basehttp 161 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2023-01-07 07:12:31,449 basehttp 161 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2023-01-07 07:12:31,457 basehttp 161 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2023-01-07 07:12:31,465 basehttp 161 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2023-01-07 07:12:31,467 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-07 07:12:31,557 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 07:12:31,558 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 07:14:41,395 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 07:14:41,469 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 07:14:41,493 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 07:14:41,494 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 07:14:41,497 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 07:14:41,508 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 07:14:41,906 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 07:14:41,921 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-07 07:14:41,941 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2023-01-07 07:14:41,946 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 07:14:41,957 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-07 07:14:41,959 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-07 07:14:41,964 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-07 07:14:52,127 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-07 07:14:52,133 basehttp 161 "GET / HTTP/1.1" 200 29797
+INFO 2023-01-07 07:14:52,226 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-07 07:14:52,244 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-07 07:14:52,250 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-07 07:14:52,251 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-07 07:14:52,255 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-07 07:14:52,258 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-07 07:14:52,269 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-07 07:14:52,589 basehttp 161 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2023-01-07 07:14:52,603 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 1388
+INFO 2023-01-07 07:14:52,638 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-07 07:14:52,639 basehttp 161 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2023-01-07 07:14:52,646 basehttp 161 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2023-01-07 07:14:52,675 basehttp 161 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2023-01-07 07:14:52,676 basehttp 161 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2023-01-07 07:14:52,677 basehttp 161 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2023-01-07 07:14:52,678 basehttp 161 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2023-01-07 07:14:52,678 basehttp 161 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2023-01-07 07:14:52,718 basehttp 161 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+WARNING 2023-01-07 07:14:52,720 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-07 07:14:52,722 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-07 07:14:52,723 basehttp 161 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2023-01-07 07:14:52,723 basehttp 161 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2023-01-07 07:14:52,726 basehttp 161 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2023-01-07 07:14:52,757 basehttp 161 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2023-01-07 07:14:52,784 basehttp 161 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2023-01-07 07:14:52,789 basehttp 161 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2023-01-07 07:14:52,791 basehttp 161 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+WARNING 2023-01-07 07:14:52,916 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 07:14:52,917 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
