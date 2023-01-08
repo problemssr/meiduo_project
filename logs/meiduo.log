@@ -1777,3 +1777,4 @@ INFO 2023-01-07 07:14:52,789 basehttp 161 "GET /static/images/goods/goods008.jpg
 INFO 2023-01-07 07:14:52,791 basehttp 161 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
 WARNING 2023-01-07 07:14:52,916 log 224 Not Found: /carts/simple/
 WARNING 2023-01-07 07:14:52,917 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-08 00:14:58,029 autoreload 637 Watching for file changes with StatReloader
