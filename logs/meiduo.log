@@ -1777,3 +1777,142 @@ INFO 2023-01-07 07:14:52,789 basehttp 161 "GET /static/images/goods/goods008.jpg
 INFO 2023-01-07 07:14:52,791 basehttp 161 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
 WARNING 2023-01-07 07:14:52,916 log 224 Not Found: /carts/simple/
 WARNING 2023-01-07 07:14:52,917 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:15:36,300 basehttp 161 "GET / HTTP/1.1" 200 29797
+INFO 2023-01-07 08:15:36,395 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2023-01-07 08:15:37,621 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:15:37,622 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:15:39,303 basehttp 161 "GET / HTTP/1.1" 200 29797
+WARNING 2023-01-07 08:15:39,575 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:15:39,576 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:16:13,676 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:16:14,576 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 08:16:17,833 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:16:18,774 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 08:16:23,317 basehttp 161 "GET / HTTP/1.1" 200 29797
+WARNING 2023-01-07 08:16:23,753 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:16:23,754 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:16:25,478 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:16:25,490 basehttp 161 "GET / HTTP/1.1" 200 29797
+WARNING 2023-01-07 08:16:25,939 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:16:25,940 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+WARNING 2023-01-07 08:16:28,330 log 224 Not Found: /login.html
+WARNING 2023-01-07 08:16:28,330 basehttp 161 "GET /login.html HTTP/1.1" 404 3584
+INFO 2023-01-07 08:16:55,058 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 08:16:55,320 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+ERROR 2023-01-07 08:16:57,831 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 397, in post
+    merge_cookie_to_redis(request, user, response)
+NameError: name 'merge_cookie_to_redis' is not defined
+ERROR 2023-01-07 08:16:57,833 basehttp 161 "POST /login/ HTTP/1.1" 500 85665
+INFO 2023-01-07 08:17:24,853 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:17:25,440 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-07 08:17:29,585 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2023-01-07 08:17:29,586 basehttp 161 "POST /login/ HTTP/1.1" 403 2519
+INFO 2023-01-07 08:17:31,327 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+WARNING 2023-01-07 08:17:32,711 log 224 Bad Request: /login/
+WARNING 2023-01-07 08:17:32,711 basehttp 161 "POST /login/ HTTP/1.1" 400 21
+INFO 2023-01-07 08:17:36,249 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:17:36,264 basehttp 161 "GET / HTTP/1.1" 200 29797
+WARNING 2023-01-07 08:17:36,525 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:17:36,527 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:18:22,686 basehttp 161 "GET / HTTP/1.1" 200 29793
+WARNING 2023-01-07 08:18:23,109 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:18:23,110 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:18:24,017 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:18:24,041 basehttp 161 "GET / HTTP/1.1" 200 29793
+WARNING 2023-01-07 08:18:24,329 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:18:24,330 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:18:25,164 basehttp 161 "GET /login HTTP/1.1" 301 0
+INFO 2023-01-07 08:18:25,176 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 08:18:26,919 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:18:26,927 basehttp 161 "GET / HTTP/1.1" 200 29793
+WARNING 2023-01-07 08:18:27,220 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:18:27,228 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:19:34,950 basehttp 161 "GET / HTTP/1.1" 200 29794
+WARNING 2023-01-07 08:19:35,381 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:19:35,382 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:19:36,797 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:19:36,806 basehttp 161 "GET / HTTP/1.1" 200 29794
+WARNING 2023-01-07 08:19:37,238 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:19:37,243 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:19:38,018 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 08:19:39,957 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:19:39,966 basehttp 161 "GET / HTTP/1.1" 200 29794
+WARNING 2023-01-07 08:19:40,507 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:19:40,508 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:20:28,255 basehttp 161 "GET / HTTP/1.1" 200 29791
+WARNING 2023-01-07 08:20:28,680 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:20:28,681 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+WARNING 2023-01-07 08:20:29,877 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:20:29,884 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+INFO 2023-01-07 08:20:45,710 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:20:45,724 basehttp 161 "GET / HTTP/1.1" 200 29791
+WARNING 2023-01-07 08:20:46,016 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:20:46,017 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:20:55,133 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-07 08:20:59,371 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-07 08:20:59,378 basehttp 161 "GET / HTTP/1.1" 200 29791
+WARNING 2023-01-07 08:20:59,695 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:20:59,696 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-07 08:33:50,820 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:33:51,434 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 08:33:52,817 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:33:53,415 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 08:34:03,558 basehttp 161 "GET / HTTP/1.1" 200 29791
+WARNING 2023-01-07 08:34:04,252 log 224 Not Found: /carts/simple/
+WARNING 2023-01-07 08:34:04,253 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+WARNING 2023-01-07 08:34:05,545 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:34:05,548 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+INFO 2023-01-07 08:34:53,176 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:34:53,896 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-07 08:35:25,037 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:35:25,038 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+WARNING 2023-01-07 08:35:53,994 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:35:53,994 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+WARNING 2023-01-07 08:35:55,295 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:35:55,296 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+WARNING 2023-01-07 08:35:58,046 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:35:58,049 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+INFO 2023-01-07 08:36:04,083 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-07 08:36:09,807 log 224 Not Found: /user_center_info.html
+WARNING 2023-01-07 08:36:09,812 basehttp 161 "GET /user_center_info.html HTTP/1.1" 404 3617
+WARNING 2023-01-07 08:36:15,223 log 224 Not Found: /user_center_info/
+WARNING 2023-01-07 08:36:15,224 basehttp 161 "GET /user_center_info/ HTTP/1.1" 404 3605
+ERROR 2023-01-07 08:37:09,054 log 224 Internal Server Error: /center/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 454, in get
+    'email_active': request.user.email_active
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2023-01-07 08:37:09,057 basehttp 161 "GET /center/ HTTP/1.1" 500 91643
+INFO 2023-01-07 08:37:28,139 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-07 08:37:28,812 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-07 08:37:31,785 basehttp 161 "GET /center/ HTTP/1.1" 200 5074
+WARNING 2023-01-07 08:37:32,096 log 224 Not Found: /browse_histories/
+WARNING 2023-01-07 08:37:32,097 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-07 08:38:07,109 basehttp 161 "GET /center/ HTTP/1.1" 200 5074
+WARNING 2023-01-07 08:38:07,469 log 224 Not Found: /browse_histories/
+WARNING 2023-01-07 08:38:07,469 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-07 08:38:08,621 basehttp 161 "GET /center/ HTTP/1.1" 200 5074
+WARNING 2023-01-07 08:38:08,831 log 224 Not Found: /browse_histories/
+WARNING 2023-01-07 08:38:08,833 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605

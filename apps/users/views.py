@@ -298,3 +298,161 @@ class UserCenterInfoView(LoginRequiredMixin, View):
 
     def get(self, request):
         return render(request, 'user_center_info.html')
+
+
+"""
+
+一 把需求写下来 (前端需要收集什么 后端需要做什么)
+    当用户把用户名/手机号 和密码填写完成之后, 发送给后端
+    后端 验证 用户名和密码
+二 把大体思路写下来(后端的大体思路)
+
+    1.后端需要接收数据
+    2.验证数据
+    3.如果验证成功则登陆
+      如果验证不成功则失败
+
+三 把详细思路完善一下(纯后端)
+
+    1.后端需要接收数据 (username,password)
+    2.判断参数是否齐全
+    3.判断用户名是否符合规则
+    4.判断密码是否符合规则
+    5.验证用户名和密码
+    6.如果验证成功则登陆,状态保持
+    7.如果验证不成功则提示 用户名或密码错误
+
+四 确定我们请求方式和路由
+
+    POST    login/
+"""
+
+
+class LoginView(View):
+
+    def get(self, request):
+
+        return render(request, 'login.html')
+
+    def post(self, request):
+        # 1.后端需要接收数据 (username,password)
+        username = request.POST.get('username')
+        passwrod = request.POST.get('password')
+        remembered = request.POST.get('remembered')
+        # 2.判断参数是否齐全
+        if not all([username, passwrod]):
+            return http.HttpResponseBadRequest('缺少必须的参数')
+        # 3.判断用户名是否符合规则
+        if not re.match(r'^[a-zA-Z0-9_-]{5,20}$', username):
+            return http.HttpResponseBadRequest('用户名不符合规则')
+        # 4.判断密码是否符合规则
+        if not re.match(r'', passwrod):
+            return http.HttpResponseBadRequest('密码不符合规则')
+        # 5.验证用户名和密码
+        # 验证有2种方式
+        # ① 使用django的认证后端
+        # ② 我们可以自己查询数据库( 根据用户名/手机号查询对应的user用户,再比对密码)
+
+        from django.contrib.auth import authenticate
+        # 默认的认证后端是调用了 from django.contrib.auth.backends import ModelBackend
+        # ModelBackend 中的认证方法
+        # def authenticate(self, request, username=None, password=None, **kwargs):
+
+        # 如果用户名和密码正确,则返回user
+        # 否则返回None
+        user = authenticate(username=username, password=passwrod)
+
+        # is_authenticated 是否是认证用户
+        # 登陆用户返回 true
+        # 未登陆用户返回 false
+        # request.user.is_authenticated
+
+        if user is not None:
+            # 6.如果验证成功则登陆,状态保持
+            # 登陆成功
+            login(request, user)
+
+            if remembered == 'on':
+                # 记住登陆
+                # request.session.set_expiry(seconds)
+                request.session.set_expiry(30 * 24 * 3600)
+            else:
+                # 不记住
+                request.session.set_expiry(0)
+
+            # 如果有next参数,则跳转到指定页面
+            # 如果没有next参数,则跳转到首页
+            next = request.GET.get('next')
+            if next:
+                response = redirect(next)
+            else:
+
+                response = redirect(reverse('contents:index'))
+
+            # 设置cookie
+            # response.set_cookie(key,value,max_age)
+            response.set_cookie('username', user.username, max_age=14 * 24 * 3600)
+
+            # # 合并cookie数据到redis中
+            # merge_cookie_to_redis(request, user, response)
+
+            return response
+        else:
+            # 登陆失败
+            # 7.如果验证不成功则提示 用户名或密码错误
+            return render(request, 'login.html', context={'account_errmsg': '用户名或密码错误'})
+
+
+"""
+1.需求
+    用户点击退出,就把登陆的信息删除
+
+2. 执行request.session.flush()
+
+
+"""
+
+
+class LogoutView(View):
+
+    def get(self, request):
+        # request.session.flush()
+
+        # 系统其他也给我们提供了退出的方法
+        from django.contrib.auth import logout
+
+        logout(request)
+
+        # 退出之后,我们要跳转到指定页面
+        # 还跳转到首页
+        # 需要额外删除cookie中的name,因为我们首页的用户信息展示是通过username来判断
+
+        response = redirect(reverse('contents:index'))
+
+        response.delete_cookie('username')
+
+        return response
+
+
+"""
+用户中心 必须是登陆用户才可以访问
+
+当前的问题是: 我们没有登陆也显示了
+"""
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+
+class UserCenterInfoView(LoginRequiredMixin, View):
+
+    def get(self, request):
+        # request.user 就是登陆的用户的信息
+
+        # context = {
+        #     'username': request.user.username,
+        #     'email': request.user.email,
+        #     'mobile': request.user.mobile,
+        #     'email_active': request.user.email_active
+        # }
+
+        # return render(request, 'user_center_info.html', context=context)
+        return render(request, 'user_center_info.html')
