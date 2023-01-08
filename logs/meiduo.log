@@ -1799,3 +1799,96 @@ INFO 2023-01-08 00:54:02,424 autoreload 251 /home/nosql/meiduo_project/meiduo_ma
 INFO 2023-01-08 00:54:02,907 autoreload 637 Watching for file changes with StatReloader
 INFO 2023-01-08 00:55:03,385 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/oauth/apps.py changed, reloading.
 INFO 2023-01-08 00:55:03,880 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 11:01:04,057 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-08 11:01:12,253 log 224 Not Found: /center/login.html
+WARNING 2023-01-08 11:01:12,254 basehttp 161 "GET /center/login.html HTTP/1.1" 404 3605
+WARNING 2023-01-08 11:01:14,584 log 224 Not Found: /center/login.html
+WARNING 2023-01-08 11:01:14,585 basehttp 161 "GET /center/login.html HTTP/1.1" 404 3605
+WARNING 2023-01-08 11:01:25,427 log 224 Not Found: /login.html
+WARNING 2023-01-08 11:01:25,428 basehttp 161 "GET /login.html HTTP/1.1" 404 3584
+INFO 2023-01-08 11:01:29,409 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-08 11:01:29,467 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2023-01-08 11:01:29,598 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2023-01-08 11:01:31,236 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-01-08 11:01:31,313 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/contents/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/index.html", line 33, in <module>
+    <a href="{{ url('users/center') }}">用户中心</a>
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'users/center' not found. 'users/center' is not a valid view function or pattern name.
+ERROR 2023-01-08 11:01:31,315 basehttp 161 "GET / HTTP/1.1" 500 138282
+INFO 2023-01-08 11:01:43,920 basehttp 161 "GET / HTTP/1.1" 200 29784
+WARNING 2023-01-08 11:01:44,367 log 224 Not Found: /carts/simple/
+WARNING 2023-01-08 11:01:44,368 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
+INFO 2023-01-08 11:01:46,473 basehttp 161 "GET /center/ HTTP/1.1" 200 5074
+WARNING 2023-01-08 11:01:46,704 log 224 Not Found: /browse_histories/
+WARNING 2023-01-08 11:01:46,705 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-08 11:28:23,794 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-08 11:28:24,793 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 11:53:36,014 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-08 11:53:36,604 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-08 11:53:39,142 log 224 Internal Server Error: /center/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/users/views.py", line 311, in get
+    'email_active': request.user.email_active
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2023-01-08 11:53:39,144 basehttp 161 "GET /center/ HTTP/1.1" 500 93640
+INFO 2023-01-08 11:53:55,113 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-08 11:53:55,650 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 11:53:58,935 basehttp 161 "GET /center/ HTTP/1.1" 200 5055
+WARNING 2023-01-08 11:53:59,190 log 224 Not Found: /browse_histories/
+WARNING 2023-01-08 11:53:59,193 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-08 13:07:28,859 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2023-01-08 13:07:29,438 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 13:09:48,650 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2023-01-08 13:09:49,265 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 13:10:12,634 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2023-01-08 13:10:13,235 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 13:10:17,468 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/migrations/0001_initial.py changed, reloading.
+INFO 2023-01-08 13:10:18,051 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 13:10:36,378 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2023-01-08 13:10:36,937 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 13:11:14,401 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-08 13:11:15,037 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 13:11:19,437 basehttp 161 "GET /center/ HTTP/1.1" 200 5042
+WARNING 2023-01-08 13:11:20,083 log 224 Not Found: /browse_histories/
+WARNING 2023-01-08 13:11:20,084 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605

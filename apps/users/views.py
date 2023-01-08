@@ -232,7 +232,6 @@ class LoginView(View):
             # 6.如果验证成功则登陆,状态保持
             # 登陆成功
             login(request, user)
-
             if remembered == 'on':
                 # 记住登陆
                 # request.session.set_expiry(seconds)
@@ -241,8 +240,14 @@ class LoginView(View):
                 # 不记住
                 request.session.set_expiry(0)
 
-            # 跳转到首页
-            response = redirect(reverse('contents:index'))
+            # 如果有next参数,则跳转到指定页面
+            # 如果没有next参数,则跳转到首页
+            next = request.GET.get('next')
+            if next:
+                response = redirect(next)
+            else:
+
+                response = redirect(reverse('contents:index'))
 
             # 设置cookie
             # response.set_cookie(key,value,max_age)
@@ -297,4 +302,13 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 class UserCenterInfoView(LoginRequiredMixin, View):
 
     def get(self, request):
-        return render(request, 'user_center_info.html')
+        # request.user 就是登陆的用户的信息
+
+        context = {
+            'username': request.user.username,
+            'email': request.user.email,
+            'mobile': request.user.mobile,
+            'email_active': request.user.email_active
+        }
+
+        return render(request, 'user_center_info.html', context=context)
