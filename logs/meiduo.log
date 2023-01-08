@@ -1778,3 +1778,24 @@ INFO 2023-01-07 07:14:52,791 basehttp 161 "GET /static/images/goods/goods009.jpg
 WARNING 2023-01-07 07:14:52,916 log 224 Not Found: /carts/simple/
 WARNING 2023-01-07 07:14:52,917 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 3593
 INFO 2023-01-08 00:14:58,029 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 00:43:41,730 basehttp 161 "GET /center/ HTTP/1.1" 200 5074
+INFO 2023-01-08 00:43:41,791 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2023-01-08 00:43:42,293 log 224 Not Found: /browse_histories/
+WARNING 2023-01-08 00:43:42,293 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-08 00:45:51,127 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 00:45:53,248 basehttp 161 "GET /center/ HTTP/1.1" 200 5068
+WARNING 2023-01-08 00:45:53,554 log 224 Not Found: /browse_histories/
+WARNING 2023-01-08 00:45:53,555 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-08 00:45:54,254 basehttp 161 "GET /center/ HTTP/1.1" 200 5068
+WARNING 2023-01-08 00:45:54,442 log 224 Not Found: /browse_histories/
+WARNING 2023-01-08 00:45:54,442 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-08 00:50:22,530 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-08 00:50:23,059 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 00:51:35,826 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-08 00:51:36,427 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 00:52:05,831 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/oauth/models.py changed, reloading.
+INFO 2023-01-08 00:52:06,398 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 00:54:02,424 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/oauth/models.py changed, reloading.
+INFO 2023-01-08 00:54:02,907 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-08 00:55:03,385 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/oauth/apps.py changed, reloading.
+INFO 2023-01-08 00:55:03,880 autoreload 637 Watching for file changes with StatReloader

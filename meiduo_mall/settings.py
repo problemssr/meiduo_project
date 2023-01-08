@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.users',
     'apps.contents',
-    'apps.verifications'
+    'apps.verifications',
+    'apps.oauth',
 ]
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
@@ -212,3 +213,55 @@ LOGGING = {
 # AUTH_USER_MODEL = '子应用名.模型类'
 
 AUTH_USER_MODEL = 'users.User'
+
+# 修改默认的认证后端
+AUTHENTICATION_BACKENDS = [
+    # 'django.contrib.auth.backends.ModelBackend'
+
+    'apps.users.utils.UsernameMobileModelBackend',
+]
+
+# LOGIN_URL 的默认值是 : accounts/login/
+# 我们只需要修改这个配置信息就可以,修改成 符合我们的路由就可以
+LOGIN_URL = '/login/'
+
+# QQ登陆相关的
+QQ_CLIENT_ID = '101518219'
+
+QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
+
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+##############邮件相关
+# 指定邮件发送后端
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# 邮件服务器
+EMAIL_HOST = 'smtp.163.com'
+# smtp 默认端口号是 25
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = 'qi_rui_hua@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = '123456abc'
+
+# 收件人看到的发件人
+EMAIL_FROM = '美多商城<qi_rui_hua@163.com>'
+
+# 自定义完成了存储类之后,告诉系统,使用我们的自定义存储类
+DEFAULT_FILE_STORAGE = 'utils.fdfs.faststorage.MyStorage'
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.229.148:9200/',  # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'haystack',  # Elasticsearch建立的索引库的名称
+    },
+}
+
+ALIPAY_APPID = '2016091600523030'
+ALIPAY_DEBUG = True
+ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
+ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
+APP_PRIVATE_KEY_PATH = os.path.join(BASE_DIR, 'apps/pay/keys/app_private_key.pem')
+ALIPAY_PUBLIC_KEY_PATH = os.path.join(BASE_DIR, 'apps/pay/keys/alipay_public_key.pem')
