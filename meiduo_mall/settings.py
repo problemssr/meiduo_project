@@ -240,12 +240,12 @@ EMAIL_HOST = 'smtp.163.com'
 # smtp 默认端口号是 25
 EMAIL_PORT = 25
 # 发送邮件的邮箱
-EMAIL_HOST_USER = 'qi_rui_hua@163.com'
+EMAIL_HOST_USER = 'excellentchina@163.com'
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = '123456abc'
+EMAIL_HOST_PASSWORD = 'NFLLTTEUEDWKUGVV'
 
 # 收件人看到的发件人
-EMAIL_FROM = '美多商城<qi_rui_hua@163.com>'
+EMAIL_FROM = '皮皮<excellentchina@163.com>'
 
 # 自定义完成了存储类之后,告诉系统,使用我们的自定义存储类
 DEFAULT_FILE_STORAGE = 'utils.fdfs.faststorage.MyStorage'

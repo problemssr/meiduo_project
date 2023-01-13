@@ -18,24 +18,24 @@ Celery 将这三者串联起来
     celery -A celery_tasks.main worker -l info
 """
 
-
-#① 让celery去加载我们当前工程中的配置文件
+# ① 让celery去加载我们当前工程中的配置文件
 import os
+
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "meiduo_mall.settings")
 
-#② 创建celery实例对象
+# ② 创建celery实例对象
 from celery import Celery
+
 # celery的第一个参数是main
 # 习惯上,填写当前脚本的工程名就可以
 # 给celery的实例起个名字,这个名字唯一就可以
 app = Celery('celery_tasks')
 
-#③ celery 设置 broker (队列)
+# ③ celery 设置 broker (队列)
 # config_from_object 参数: 就是 配置文件的路径
 app.config_from_object('celery_tasks.config')
 
-
-#④ 让celery自动检测任务
-#autodiscover_tasks 参数是 列表
+# ④ 让celery自动检测任务
+# autodiscover_tasks 参数是 列表
 # 列表的元素是: 任务的包路径
 app.autodiscover_tasks(['celery_tasks.sms'])
