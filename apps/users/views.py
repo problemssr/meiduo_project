@@ -1,3 +1,4 @@
+import json
 import re
 
 from django import http
@@ -10,6 +11,8 @@ from django.views import View
 
 from apps.users.models import User
 import logging
+
+from utils.response_code import RETCODE
 
 logger = logging.getLogger('django')
 """
@@ -312,3 +315,66 @@ class UserCenterInfoView(LoginRequiredMixin, View):
         }
 
         return render(request, 'user_center_info.html', context=context)
+
+
+"""
+一 把需求写下来 (前端需要收集什么 后端需要做什么)
+    当用户把邮箱内容填写完成之后,点击保存按钮. 前端需要收集用户的邮箱信息,然后发送一个ajax请求
+
+    后端 要接收数据,然后保存数据,再发送激活邮件
+
+
+    ,用户一点击就可以激活
+二 把大体思路写下来(后端的大体思路)
+        1.接收数据
+        2.验证数据
+        3.保存数据
+        4.发送激活邮件
+        5.返回相应
+三 把详细思路完善一下(纯后端)
+
+        1.接收数据,获取数据
+        2.验证数据
+        3.保存数据(更新指定用户的邮箱信息)
+        4.发送激活邮件
+            4.1 激活邮件的内容
+            4.2 能够发送激活邮件
+        5.返回相应
+
+四 确定我们请求方式和路由
+
+        GET     :一般是获取数据
+        POST    :一般是注册(新增)数据
+
+        PUT     :一般是修改数据  (提交的数据在请求body中)    emails/
+        DELETE  :一般是删除数据
+
+
+"""
+
+
+# class EmailView(LoginRequiredJSONMixin, View):
+class EmailView(View):
+
+    def put(self, request):
+        # 1.接收数据,获取数据
+        data = json.loads(request.body.decode())
+        email = data.get('email')
+        # 2.验证数据
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return http.JsonResponse({'code': RETCODE.PARAMERR, 'errmsg': '参数错误'})
+        # 3.保存数据(更新指定用户的邮箱信息)
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '数据保存失败'})
+
+        # verify_url = active_email_url(email, request.user.id)
+        #
+        # from celery_tasks.email.tasks import send_active_email
+        # send_active_email.delay(email, verify_url)
+        #     4.1 激活邮件的内容
+        #     4.2 能够发送激活邮件
+        # 5.返回相应
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})

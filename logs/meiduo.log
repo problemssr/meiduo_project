@@ -1892,3 +1892,28 @@ INFO 2023-01-08 13:11:15,037 autoreload 637 Watching for file changes with StatR
 INFO 2023-01-08 13:11:19,437 basehttp 161 "GET /center/ HTTP/1.1" 200 5042
 WARNING 2023-01-08 13:11:20,083 log 224 Not Found: /browse_histories/
 WARNING 2023-01-08 13:11:20,084 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3605
+INFO 2023-01-13 02:11:23,392 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-13 02:11:24,671 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 02:12:51,277 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-13 02:12:51,895 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 02:14:17,475 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-13 02:14:18,050 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 02:15:45,631 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-13 02:15:46,152 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 02:16:17,408 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-13 02:16:18,027 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 02:21:11,594 basehttp 161 "GET /center/ HTTP/1.1" 200 5042
+INFO 2023-01-13 02:21:11,740 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2023-01-13 02:21:12,242 log 224 Not Found: /browse_histories/
+WARNING 2023-01-13 02:21:12,242 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3775
+INFO 2023-01-13 02:21:36,824 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-13 02:21:50,221 log 224 Not Found: /emails/
+WARNING 2023-01-13 02:21:50,222 basehttp 161 "PUT /emails/ HTTP/1.1" 404 3745
+INFO 2023-01-13 02:22:04,513 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-13 02:22:05,453 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-13 02:22:09,690 base 101 Method Not Allowed (PUT): /emails/
+WARNING 2023-01-13 02:22:09,692 log 224 Method Not Allowed: /emails/
+WARNING 2023-01-13 02:22:09,693 basehttp 161 "PUT /emails/ HTTP/1.1" 405 0
+INFO 2023-01-13 02:22:40,383 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-13 02:22:41,352 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-13 02:28:10,474 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
