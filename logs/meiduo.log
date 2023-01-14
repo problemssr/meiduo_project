@@ -2217,3 +2217,36 @@ WARNING 2023-01-13 03:23:14,971 basehttp 161 "GET /static/js/axios.min.map HTTP/
 WARNING 2023-01-13 03:23:15,013 log 224 Not Found: /browse_histories/
 WARNING 2023-01-13 03:23:15,015 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
 INFO 2023-01-13 03:23:21,238 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 00:28:45,736 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-14 00:28:47,112 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 00:30:20,692 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 00:30:20,821 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 00:30:20,854 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 00:30:20,876 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 00:30:20,892 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 00:30:20,922 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 00:30:20,936 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 00:30:21,617 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-14 00:30:21,619 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-14 00:30:21,712 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-14 00:30:21,752 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-14 00:30:21,770 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 00:30:21,771 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
+INFO 2023-01-14 00:30:21,775 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-14 00:30:27,502 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 00:31:23,447 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 00:31:27,575 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 00:31:27,639 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 00:31:27,649 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 00:31:27,673 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 00:31:27,682 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 00:31:27,720 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 00:31:27,735 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 00:31:28,270 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-14 00:31:28,306 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-14 00:31:28,391 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-14 00:31:28,411 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-14 00:31:28,415 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 00:31:28,416 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
+INFO 2023-01-14 00:31:28,422 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-14 00:33:06,182 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29

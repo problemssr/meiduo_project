@@ -370,24 +370,25 @@ class EmailView(View):
             request.user.save()
         except Exception as e:
             return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '数据保存失败'})
-        subject = '主题'
-        message = "内容"
-        from_email = settings.EMAIL_FROM
-        html_message = '<h1>哈哈哈哈和</h1>'
-        recipient_list = ['2298269347@qq.com']
-        # 发送激活邮件
-        from django.core.mail import send_mail
-        send_mail(
-            subject=subject,
-            message=message,
-            from_email=from_email,
-            recipient_list=recipient_list,
-            html_message=html_message
-        )
+        # # 发送激活邮件
+        # subject = '主题'
+        # message = "内容"
+        # from_email = settings.EMAIL_FROM
+        # html_message = '<h1>哈哈哈哈和</h1>'
+        # recipient_list = ['2298269347@qq.com']
+        # from django.core.mail import send_mail
+        # send_mail(
+        #     subject=subject,
+        #     message=message,
+        #     from_email=from_email,
+        #     recipient_list=recipient_list,
+        #     html_message=html_message
+        # )
+        # '2298269347@qq.com'
         # verify_url = active_email_url(email, request.user.id)
         #
-        # from celery_tasks.email.tasks import send_active_email
-        # send_active_email.delay(email, verify_url)
+        from celery_tasks.email.tasks import send_active_email
+        send_active_email.delay(email)
         #     4.1 激活邮件的内容
         #     4.2 能够发送激活邮件
         # 5.返回相应

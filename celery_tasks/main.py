@@ -38,4 +38,4 @@ app.config_from_object('celery_tasks.config')
 # ④ 让celery自动检测任务
 # autodiscover_tasks 参数是 列表
 # 列表的元素是: 任务的包路径
-app.autodiscover_tasks(['celery_tasks.sms'])
+app.autodiscover_tasks(['celery_tasks.email'])
