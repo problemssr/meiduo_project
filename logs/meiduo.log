@@ -2250,3 +2250,5 @@ WARNING 2023-01-14 00:31:28,415 log 224 Not Found: /browse_histories/
 WARNING 2023-01-14 00:31:28,416 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
 INFO 2023-01-14 00:31:28,422 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
 INFO 2023-01-14 00:33:06,182 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 01:17:43,600 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
+INFO 2023-01-14 01:17:44,701 autoreload 637 Watching for file changes with StatReloader
