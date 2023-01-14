@@ -2252,3 +2252,110 @@ INFO 2023-01-14 00:31:28,422 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1
 INFO 2023-01-14 00:33:06,182 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
 INFO 2023-01-14 01:17:43,600 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
 INFO 2023-01-14 01:17:44,701 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 02:11:17,831 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 02:11:17,943 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 02:11:17,980 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 02:11:17,993 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 02:11:17,998 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 02:11:18,014 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 02:11:18,016 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 02:11:18,519 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-14 02:11:18,525 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-14 02:11:18,607 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-14 02:11:18,607 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-14 02:11:18,614 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-14 02:11:18,707 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 02:11:18,708 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
+INFO 2023-01-14 02:11:19,581 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 02:11:21,117 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 02:11:21,177 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 02:11:21,185 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 02:11:21,187 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 02:11:21,192 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 02:11:21,198 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 02:11:21,201 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 02:11:21,618 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-14 02:11:21,628 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-14 02:11:21,679 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-14 02:11:21,707 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-14 02:11:21,730 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-14 02:11:21,753 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 02:11:21,760 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
+INFO 2023-01-14 02:11:22,230 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 06:08:52,440 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
+INFO 2023-01-14 06:08:53,586 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 06:10:53,799 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-14 06:10:54,476 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 06:11:05,844 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-14 06:11:06,420 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 06:15:38,675 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/utils.py changed, reloading.
+INFO 2023-01-14 06:15:39,439 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 06:16:04,885 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-14 06:16:05,457 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 06:16:32,563 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 06:16:32,677 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 06:16:32,699 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 06:16:32,731 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 06:16:32,734 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 06:16:32,737 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 06:16:32,761 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 06:16:33,162 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-14 06:16:33,180 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-14 06:16:33,224 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-14 06:16:33,225 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-14 06:16:33,229 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2023-01-14 06:16:33,283 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-14 06:16:33,334 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 06:16:33,334 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
+INFO 2023-01-14 06:16:40,361 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+WARNING 2023-01-14 06:17:29,423 log 224 Not Found: /email_active
+WARNING 2023-01-14 06:17:29,424 basehttp 161 "GET /email_active?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY3MzY3NzAwMCwiZXhwIjoxNjczNjgwNjAwfQ.eyJlbWFpbCI6ImV4Y2VsbGVudGNoaW5hQDE2My5jb20iLCJpZCI6MX0.quh1xG7rPW1Rswpc-l-c4tV7Ua9zxA27xsLbh5hgKOK-BGe_zWbyyQyQZdHX0M6xxgiOpHLH2-5JzzqPebeJFw HTTP/1.1" 404 3977
+INFO 2023-01-14 06:21:22,997 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/utils.py changed, reloading.
+INFO 2023-01-14 06:21:23,883 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 06:21:31,236 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 06:21:31,279 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 06:21:31,285 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 06:21:31,296 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 06:21:31,330 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 06:21:31,334 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 06:21:31,355 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 06:21:31,835 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-14 06:21:31,837 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+WARNING 2023-01-14 06:21:31,899 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-14 06:21:31,955 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-14 06:21:31,957 log 224 Not Found: /browse_histories/
+INFO 2023-01-14 06:21:31,957 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-14 06:21:31,958 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3776
+INFO 2023-01-14 06:21:32,618 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 06:29:59,667 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/utils.py changed, reloading.
+INFO 2023-01-14 06:30:00,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 09:58:37,976 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-14 09:58:38,748 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 10:17:14,958 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/utils.py changed, reloading.
+INFO 2023-01-14 10:17:15,537 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 10:18:47,321 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-14 10:18:48,558 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 10:18:57,787 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-14 10:18:58,305 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 10:21:10,475 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 10:21:12,999 basehttp 161 "GET /center/ HTTP/1.1" 200 5064
+INFO 2023-01-14 10:21:13,084 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-14 10:21:13,096 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-14 10:21:13,096 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-14 10:21:13,108 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-14 10:21:13,110 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-14 10:21:13,112 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-14 10:21:13,619 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-14 10:21:13,620 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-14 10:21:13,714 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-14 10:21:13,720 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2023-01-14 10:21:13,721 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-14 10:21:13,753 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-14 10:21:13,857 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 10:21:13,858 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3959
+INFO 2023-01-14 10:21:17,301 basehttp 161 "PUT /emails/ HTTP/1.1" 200 29
+INFO 2023-01-14 10:21:54,873 basehttp 161 "GET /email_active?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY3MzY5MTY3NywiZXhwIjoxNjczNjk1Mjc3fQ.eyJlbWFpbCI6ImV4Y2VsbGVudGNoaW5hQDE2My5jb20iLCJpZCI6MX0.EJjKtNNYKPoAyEQI-SPkKAQInC_imnUoxoCB6T5ZKsqKGl-9Ln6-zclEOFtlt4K210Ir9BUzMY1Lh-D_zTYaGA HTTP/1.1" 301 0
+INFO 2023-01-14 10:22:16,543 basehttp 161 "GET /email_active/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY3MzY5MTY3NywiZXhwIjoxNjczNjk1Mjc3fQ.eyJlbWFpbCI6ImV4Y2VsbGVudGNoaW5hQDE2My5jb20iLCJpZCI6MX0.EJjKtNNYKPoAyEQI-SPkKAQInC_imnUoxoCB6T5ZKsqKGl-9Ln6-zclEOFtlt4K210Ir9BUzMY1Lh-D_zTYaGA HTTP/1.1" 302 0
+INFO 2023-01-14 10:22:16,573 basehttp 161 "GET /center/ HTTP/1.1" 200 5063
+WARNING 2023-01-14 10:22:17,137 log 224 Not Found: /browse_histories/
+WARNING 2023-01-14 10:22:17,138 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3959

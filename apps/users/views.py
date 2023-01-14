@@ -12,6 +12,7 @@ from django.views import View
 from apps.users.models import User
 import logging
 
+from apps.users.utils import active_email_url, check_email_active_token
 from meiduo_mall import settings
 from utils.response_code import RETCODE
 
@@ -385,11 +386,30 @@ class EmailView(View):
         #     html_message=html_message
         # )
         # '2298269347@qq.com'
-        # verify_url = active_email_url(email, request.user.id)
         #
+        verify_url = active_email_url(email, request.user.id)
+
         from celery_tasks.email.tasks import send_active_email
-        send_active_email.delay(email)
+        send_active_email.delay(email, verify_url)
         #     4.1 激活邮件的内容
         #     4.2 能够发送激活邮件
         # 5.返回相应
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})
+
+
+class EmailActiveView(View):
+    def get(self, request):
+        # 1.获取token
+        token = request.GET.get('token')
+        if token is None:
+            return http.HttpResponseBadRequest('缺少参数')
+        # 2.解密token数据
+        # 3.根据解密的数据查询用户信息
+        user = check_email_active_token(token)
+        if user is None:
+            return http.HttpResponseBadRequest('没有此用户')
+        # 4.修改用户信息
+        user.email_active = True
+        user.save()
+        # 5.跳转到个人中心页面
+        return redirect(reverse('users:center'))
