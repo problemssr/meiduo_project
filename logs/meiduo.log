@@ -2359,3 +2359,307 @@ INFO 2023-01-14 10:22:16,543 basehttp 161 "GET /email_active/?token=eyJhbGciOiJI
 INFO 2023-01-14 10:22:16,573 basehttp 161 "GET /center/ HTTP/1.1" 200 5063
 WARNING 2023-01-14 10:22:17,137 log 224 Not Found: /browse_histories/
 WARNING 2023-01-14 10:22:17,138 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 3959
+INFO 2023-01-14 12:41:07,114 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-14 12:41:07,382 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-14 12:41:08,201 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-14 12:41:09,056 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 02:12:31,269 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-15 02:12:31,358 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-15 02:12:32,542 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 02:12:32,756 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 02:13:24,138 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 02:13:54,609 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 03:25:47,078 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 03:26:25,697 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2023-01-15 03:26:26,312 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 03:26:42,651 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 03:27:01,501 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 03:28:01,732 basehttp 161 "GET /areas/?area_id=370000 HTTP/1.1" 200 825
+INFO 2023-01-15 03:28:15,394 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 03:36:55,673 basehttp 161 "GET /areas/?area_id=370000 HTTP/1.1" 200 825
+INFO 2023-01-15 03:37:02,114 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-15 03:39:15,205 log 224 Not Found: /center/user_center_site.html
+WARNING 2023-01-15 03:39:15,206 basehttp 161 "GET /center/user_center_site.html HTTP/1.1" 404 4524
+WARNING 2023-01-15 04:12:45,723 log 224 Not Found: /user_center_site.html
+WARNING 2023-01-15 04:12:45,723 basehttp 161 "GET /user_center_site.html HTTP/1.1" 404 4503
+WARNING 2023-01-15 04:12:54,791 log 224 Not Found: /center/user_center_site.html
+WARNING 2023-01-15 04:12:54,792 basehttp 161 "GET /center/user_center_site.html HTTP/1.1" 404 4524
+INFO 2023-01-15 04:13:16,704 basehttp 161 "GET /center/ HTTP/1.1" 200 5063
+INFO 2023-01-15 04:13:16,761 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 04:13:16,770 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 04:13:16,776 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 04:13:16,783 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 04:13:16,786 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 04:13:16,790 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 04:13:16,841 basehttp 161 "GET / HTTP/1.1" 200 29784
+INFO 2023-01-15 04:13:17,031 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-15 04:13:17,242 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 04:13:17,244 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 04:13:17,245 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 04:13:17,297 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 04:13:17,329 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 04:13:17,337 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 04:13:17,341 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 04:13:17,342 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 04:13:17,733 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 04:13:17,745 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-15 04:13:17,762 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-15 04:13:17,765 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-15 04:13:17,766 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-15 04:13:17,769 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2023-01-15 04:13:17,804 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-15 04:13:19,361 log 224 Bad Request: /login/
+WARNING 2023-01-15 04:13:19,361 basehttp 161 "POST /login/ HTTP/1.1" 400 21
+INFO 2023-01-15 04:13:21,509 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-15 04:13:21,582 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 04:13:21,589 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 04:13:21,596 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 04:13:21,601 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 04:13:21,603 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 04:13:21,928 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 04:13:21,939 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-15 04:13:21,957 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-15 04:13:21,969 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-15 04:13:21,970 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-15 04:13:21,972 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2023-01-15 04:13:21,994 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 04:13:23,130 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-15 04:13:23,138 basehttp 161 "GET / HTTP/1.1" 200 29784
+INFO 2023-01-15 04:13:23,223 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 04:13:23,232 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 04:13:23,240 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 04:13:23,251 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 04:13:23,252 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 04:13:23,256 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 04:13:23,258 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-15 04:13:23,605 basehttp 161 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2023-01-15 04:13:23,626 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 1388
+INFO 2023-01-15 04:13:23,667 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 04:13:23,686 basehttp 161 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2023-01-15 04:13:23,687 basehttp 161 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2023-01-15 04:13:23,688 basehttp 161 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2023-01-15 04:13:23,689 basehttp 161 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2023-01-15 04:13:23,701 basehttp 161 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2023-01-15 04:13:23,701 basehttp 161 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+WARNING 2023-01-15 04:13:23,716 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 04:13:23,729 basehttp 161 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2023-01-15 04:13:23,731 basehttp 161 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2023-01-15 04:13:23,734 basehttp 161 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2023-01-15 04:13:23,736 basehttp 161 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2023-01-15 04:13:23,753 basehttp 161 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2023-01-15 04:13:23,755 basehttp 161 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2023-01-15 04:13:23,759 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 04:13:23,761 basehttp 161 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2023-01-15 04:13:23,799 basehttp 161 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2023-01-15 04:13:23,829 basehttp 161 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+WARNING 2023-01-15 04:13:23,905 log 224 Not Found: /carts/simple/
+WARNING 2023-01-15 04:13:23,905 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 4479
+INFO 2023-01-15 04:13:27,379 basehttp 161 "GET /center/ HTTP/1.1" 200 5063
+INFO 2023-01-15 04:13:27,431 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 04:13:27,446 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 04:13:27,492 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 04:13:27,493 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 04:13:27,493 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 04:13:27,494 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 04:13:27,827 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2023-01-15 04:13:27,844 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-15 04:13:27,935 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 04:13:27,950 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 04:13:27,964 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-15 04:13:27,980 log 224 Not Found: /browse_histories/
+WARNING 2023-01-15 04:13:27,984 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 4491
+INFO 2023-01-15 04:15:42,379 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 04:15:42,597 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 04:15:43,037 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 04:15:43,272 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 04:15:45,495 basehttp 161 "GET /center/ HTTP/1.1" 200 5063
+WARNING 2023-01-15 04:15:46,198 log 224 Not Found: /browse_histories/
+WARNING 2023-01-15 04:15:46,200 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 4491
+WARNING 2023-01-15 04:15:47,467 log 224 Not Found: /center/user_center_site.html
+WARNING 2023-01-15 04:15:47,468 basehttp 161 "GET /center/user_center_site.html HTTP/1.1" 404 4524
+WARNING 2023-01-15 04:15:55,802 log 224 Not Found: /user_center_site.html
+WARNING 2023-01-15 04:15:55,802 basehttp 161 "GET /user_center_site.html HTTP/1.1" 404 4503
+INFO 2023-01-15 04:16:52,926 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-15 04:16:53,076 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-15 04:16:53,546 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 04:16:53,711 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-15 04:16:55,465 log 224 Not Found: /user_center_site.html
+WARNING 2023-01-15 04:16:55,465 basehttp 161 "GET /user_center_site.html HTTP/1.1" 404 4683
+WARNING 2023-01-15 04:16:58,744 log 224 Not Found: /center/user_center_site.html
+WARNING 2023-01-15 04:16:58,745 basehttp 161 "GET /center/user_center_site.html HTTP/1.1" 404 4704
+WARNING 2023-01-15 04:17:01,598 log 224 Not Found: /center/user_center_info.html
+WARNING 2023-01-15 04:17:01,599 basehttp 161 "GET /center/user_center_info.html HTTP/1.1" 404 4704
+WARNING 2023-01-15 04:17:07,433 log 224 Not Found: /center/user_center_info.html
+WARNING 2023-01-15 04:17:07,433 basehttp 161 "GET /center/user_center_info.html HTTP/1.1" 404 4704
+INFO 2023-01-15 04:17:51,681 basehttp 161 "GET /static/user_center_order.html HTTP/1.1" 200 5905
+INFO 2023-01-15 04:17:51,733 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-15 04:17:51,867 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+INFO 2023-01-15 04:17:51,875 basehttp 161 "GET /static/js/user_center_order.js HTTP/1.1" 200 2046
+INFO 2023-01-15 04:18:05,207 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 04:18:07,923 basehttp 161 "GET /center/ HTTP/1.1" 200 5083
+WARNING 2023-01-15 04:18:08,133 log 224 Not Found: /browse_histories/
+WARNING 2023-01-15 04:18:08,134 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 4671
+WARNING 2023-01-15 04:18:09,229 basehttp 161 "GET /static/user_center_info.html HTTP/1.1" 404 1822
+WARNING 2023-01-15 04:18:14,896 log 224 Not Found: /templates/user_center_site.html
+WARNING 2023-01-15 04:18:14,896 basehttp 161 "GET /templates/user_center_site.html HTTP/1.1" 404 4713
+INFO 2023-01-15 04:18:19,837 basehttp 161 "GET /static/user_center_pass.html HTTP/1.1" 200 4566
+INFO 2023-01-15 04:18:20,001 basehttp 161 "GET /static/js/user_center_pass.js HTTP/1.1" 200 1493
+WARNING 2023-01-15 04:18:22,101 log 224 Not Found: /templates/user_center_site.html
+WARNING 2023-01-15 04:18:22,101 basehttp 161 "GET /templates/user_center_site.html HTTP/1.1" 404 4713
+INFO 2023-01-15 04:19:04,297 basehttp 161 "GET /static/user_center_pass.html HTTP/1.1" 304 0
+WARNING 2023-01-15 04:19:05,364 log 224 Not Found: /templates/user_center_site.html
+WARNING 2023-01-15 04:19:05,364 basehttp 161 "GET /templates/user_center_site.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 04:19:09,523 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-15 04:19:09,523 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 4713
+INFO 2023-01-15 04:19:17,372 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-15 04:19:22,681 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-15 04:19:22,682 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 4713
+INFO 2023-01-15 04:19:59,667 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 04:20:01,741 basehttp 161 "GET /static/user_center_pass.html HTTP/1.1" 304 0
+WARNING 2023-01-15 04:20:02,835 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-15 04:20:02,835 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 04:20:05,684 log 224 Not Found: /templates/user_center_site.html
+WARNING 2023-01-15 04:20:05,684 basehttp 161 "GET /templates/user_center_site.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 04:20:34,969 log 224 Not Found: /user_center_site.html
+WARNING 2023-01-15 04:20:34,969 basehttp 161 "GET /user_center_site.html HTTP/1.1" 404 4683
+WARNING 2023-01-15 06:09:58,458 log 224 Not Found: /adress
+WARNING 2023-01-15 06:09:58,459 basehttp 161 "GET /adress HTTP/1.1" 404 4638
+WARNING 2023-01-15 06:10:04,698 log 224 Not Found: /address
+WARNING 2023-01-15 06:10:04,699 basehttp 161 "GET /address HTTP/1.1" 404 4641
+INFO 2023-01-15 06:14:41,048 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-15 06:14:46,154 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-15 06:14:46,155 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 06:14:49,364 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-15 06:14:49,364 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 06:14:54,065 log 224 Not Found: /templates/login.html
+WARNING 2023-01-15 06:14:54,066 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 4680
+WARNING 2023-01-15 06:15:00,845 log 224 Not Found: /templates/index.html
+WARNING 2023-01-15 06:15:00,845 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 4680
+INFO 2023-01-15 06:15:06,621 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-01-15 06:15:06,655 basehttp 161 "GET / HTTP/1.1" 200 29784
+WARNING 2023-01-15 06:15:06,950 log 224 Not Found: /carts/simple/
+WARNING 2023-01-15 06:15:06,950 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 4659
+WARNING 2023-01-15 06:15:07,871 log 224 Not Found: /login.html
+WARNING 2023-01-15 06:15:07,872 basehttp 161 "GET /login.html HTTP/1.1" 404 4650
+INFO 2023-01-15 06:15:12,678 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-15 06:15:14,388 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-15 06:15:14,393 basehttp 161 "GET / HTTP/1.1" 200 29784
+WARNING 2023-01-15 06:15:14,671 log 224 Not Found: /carts/simple/
+WARNING 2023-01-15 06:15:14,672 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 4659
+INFO 2023-01-15 06:15:18,582 basehttp 161 "GET /center/ HTTP/1.1" 200 5063
+WARNING 2023-01-15 06:15:18,807 log 224 Not Found: /browse_histories/
+WARNING 2023-01-15 06:15:18,809 basehttp 161 "GET /browse_histories/ HTTP/1.1" 404 4671
+WARNING 2023-01-15 06:15:21,957 log 224 Not Found: /center/user_center_site.html
+WARNING 2023-01-15 06:15:21,958 basehttp 161 "GET /center/user_center_site.html HTTP/1.1" 404 4704
+WARNING 2023-01-15 06:15:28,375 log 224 Not Found: /templates/user_center_site.html
+WARNING 2023-01-15 06:15:28,375 basehttp 161 "GET /templates/user_center_site.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 06:15:34,905 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-15 06:15:34,906 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 4713
+INFO 2023-01-15 06:15:47,420 basehttp 161 "GET /addresses HTTP/1.1" 301 0
+INFO 2023-01-15 06:15:47,450 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:15:47,489 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 06:15:47,744 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 06:15:51,486 basehttp 161 "GET /areas/?area_id=110000 HTTP/1.1" 200 89
+INFO 2023-01-15 06:17:03,909 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:17:04,141 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 06:17:13,554 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:17:13,911 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2023-01-15 06:17:14,685 log 224 Not Found: /addresses/user_center_site.html
+WARNING 2023-01-15 06:17:14,686 basehttp 161 "GET /addresses/user_center_site.html HTTP/1.1" 404 4713
+INFO 2023-01-15 06:17:27,813 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 06:17:31,280 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:17:31,514 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2023-01-15 06:17:32,999 log 224 Not Found: /addresses/user_center_site.html
+WARNING 2023-01-15 06:17:33,000 basehttp 161 "GET /addresses/user_center_site.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 06:17:37,908 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:17:45,155 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:17:45,226 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 06:17:45,234 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 06:17:45,246 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 06:17:45,252 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 06:17:45,252 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 06:17:45,606 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 06:17:45,622 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 06:17:45,667 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 06:17:45,667 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 06:17:45,668 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2023-01-15 06:17:45,677 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-15 06:17:45,723 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:17:45,882 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2023-01-15 06:17:49,810 log 224 Not Found: /addresses/index.html
+WARNING 2023-01-15 06:17:49,810 basehttp 161 "GET /addresses/index.html HTTP/1.1" 404 4680
+WARNING 2023-01-15 06:17:52,546 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:18:18,949 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:18:18,976 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 06:18:18,986 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 06:18:18,991 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 06:18:18,993 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 06:18:18,994 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 06:18:19,484 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 06:18:19,512 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 06:18:19,517 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 06:18:19,519 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 06:18:19,520 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 06:18:19,524 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2023-01-15 06:18:19,559 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:18:19,594 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2023-01-15 06:18:21,111 log 224 Not Found: /addresses/user_center_site.html
+WARNING 2023-01-15 06:18:21,111 basehttp 161 "GET /addresses/user_center_site.html HTTP/1.1" 404 4713
+WARNING 2023-01-15 06:18:22,739 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:18:37,398 basehttp 161 "GET /areas/?area_id=110000 HTTP/1.1" 200 89
+INFO 2023-01-15 06:33:07,027 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2023-01-15 06:33:07,205 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2023-01-15 06:33:07,775 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 06:33:07,775 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 06:33:48,531 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 06:34:57,999 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 06:35:52,445 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 06:36:32,634 basehttp 161 "GET /areas/?area_id=370000 HTTP/1.1" 200 825
+INFO 2023-01-15 06:37:06,966 basehttp 161 "GET /areas/?area_id=370000 HTTP/1.1" 200 825
+INFO 2023-01-15 06:37:51,621 basehttp 161 "GET /addresses/ HTTP/1.1" 302 0
+INFO 2023-01-15 06:37:51,677 basehttp 161 "GET /login/?next=/addresses/ HTTP/1.1" 200 3704
+INFO 2023-01-15 06:37:51,736 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 06:37:51,755 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 06:37:51,759 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 06:37:51,789 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 06:37:51,791 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 06:37:52,272 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-15 06:37:52,274 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 06:37:52,331 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-15 06:37:52,352 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-15 06:37:52,353 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-15 06:37:52,432 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2023-01-15 06:37:52,473 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:37:54,964 basehttp 161 "POST /login/?next=/addresses/ HTTP/1.1" 302 0
+INFO 2023-01-15 06:37:54,999 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:37:55,103 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 06:37:55,114 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 06:37:55,116 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 06:37:55,118 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 06:37:55,122 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 06:37:55,513 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 06:37:55,527 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 06:37:55,548 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 06:37:55,581 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 06:37:55,602 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2023-01-15 06:37:55,620 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-15 06:37:55,630 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:38:02,597 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 06:38:05,383 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 06:38:05,414 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 06:38:05,415 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 06:38:05,438 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 06:38:05,448 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 06:38:05,454 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 06:38:05,880 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 06:38:05,903 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 06:38:05,920 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 06:38:05,927 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 06:38:05,931 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 06:38:05,937 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2023-01-15 06:38:06,026 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 06:38:06,112 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 06:38:08,386 basehttp 161 "GET /areas/?area_id=320000 HTTP/1.1" 200 647
+INFO 2023-01-15 06:38:10,635 basehttp 161 "GET /areas/?area_id=320100 HTTP/1.1" 200 555
+INFO 2023-01-15 06:38:14,059 basehttp 161 "GET /areas/?area_id=140000 HTTP/1.1" 200 549
+INFO 2023-01-15 06:38:15,843 basehttp 161 "GET /areas/?area_id=140100 HTTP/1.1" 200 521

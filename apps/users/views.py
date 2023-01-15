@@ -413,3 +413,11 @@ class EmailActiveView(View):
         user.save()
         # 5.跳转到个人中心页面
         return redirect(reverse('users:center'))
+
+
+class AddressView(LoginRequiredMixin, View):
+    """用户收货地址"""
+
+    def get(self, request):
+        """提供收货地址界面"""
+        return render(request, 'user_center_site.html')

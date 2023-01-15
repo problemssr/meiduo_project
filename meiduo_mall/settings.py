@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'apps.contents',
     'apps.verifications',
     'apps.oauth',
+    'apps.areas',
 ]
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
