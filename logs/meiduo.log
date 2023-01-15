@@ -2664,3 +2664,165 @@ INFO 2023-01-15 06:38:10,635 basehttp 161 "GET /areas/?area_id=320100 HTTP/1.1" 
 INFO 2023-01-15 06:38:14,059 basehttp 161 "GET /areas/?area_id=140000 HTTP/1.1" 200 549
 INFO 2023-01-15 06:38:15,843 basehttp 161 "GET /areas/?area_id=140100 HTTP/1.1" 200 521
 INFO 2023-01-15 08:08:23,005 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 08:11:43,141 basehttp 161 "GET /areas/?area_id=110000 HTTP/1.1" 200 89
+INFO 2023-01-15 08:11:51,641 basehttp 161 "GET /areas/?area_id=110100 HTTP/1.1" 200 791
+INFO 2023-01-15 08:11:52,721 basehttp 161 "GET /areas/?area_id=130000 HTTP/1.1" 200 649
+INFO 2023-01-15 08:11:54,168 basehttp 161 "GET /areas/?area_id=130200 HTTP/1.1" 200 687
+WARNING 2023-01-15 08:12:33,875 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:10:06,496 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:10:07,603 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:10:09,291 basehttp 161 "GET /areas/?area_id=130000 HTTP/1.1" 200 649
+INFO 2023-01-15 11:10:10,433 basehttp 161 "GET /areas/?area_id=130100 HTTP/1.1" 200 1009
+INFO 2023-01-15 11:10:40,434 basehttp 161 "POST /addresses/ HTTP/1.1" 200 345
+INFO 2023-01-15 11:17:58,095 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:17:58,722 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:18:04,199 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:18:04,919 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:18:17,262 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:18:17,897 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:18:19,279 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:18:19,511 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:18:21,612 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:18:21,836 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2023-01-15 11:18:32,400 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:18:32,594 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:18:32,637 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:18:32,658 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:18:32,668 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:18:32,673 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:18:32,682 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:18:33,091 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:18:33,116 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:18:33,117 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 11:18:33,118 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 11:18:33,127 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 11:18:33,131 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2023-01-15 11:18:33,148 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:18:33,244 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:18:47,476 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:18:47,538 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:18:47,556 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:18:47,563 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:18:47,568 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:18:47,580 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:18:47,912 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:18:47,920 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:18:47,945 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 11:18:47,951 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 11:18:47,957 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 11:18:47,968 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2023-01-15 11:18:48,009 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:18:48,021 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:19:11,715 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:19:12,447 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:19:14,203 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:19:14,251 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:19:14,258 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:19:14,261 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:19:14,280 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:19:14,281 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:19:14,643 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:19:14,644 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:19:14,668 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-15 11:19:14,687 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:19:14,707 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 11:19:14,711 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 11:19:14,714 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2023-01-15 11:19:14,823 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:19:16,840 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:19:16,891 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:19:16,913 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:19:16,938 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:19:16,942 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:19:16,943 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:19:17,274 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 11:19:17,280 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 11:19:17,282 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:19:17,283 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:19:17,300 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 11:19:17,301 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2023-01-15 11:19:17,333 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:19:17,392 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:19:22,495 basehttp 161 "GET /areas/?area_id=120000 HTTP/1.1" 200 89
+INFO 2023-01-15 11:19:24,170 basehttp 161 "GET /areas/?area_id=120100 HTTP/1.1" 200 785
+INFO 2023-01-15 11:20:41,477 basehttp 161 "POST /addresses/ HTTP/1.1" 200 310
+INFO 2023-01-15 11:20:45,720 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:20:45,788 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:20:45,800 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:20:45,802 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:20:45,812 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:20:45,815 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:20:46,259 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:20:46,264 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:20:46,277 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-15 11:20:46,320 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:20:46,348 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 11:20:46,355 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:20:46,356 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 11:20:52,868 basehttp 161 "GET /login/?next=/addresses/ HTTP/1.1" 200 3704
+INFO 2023-01-15 11:20:52,945 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:20:52,948 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:20:52,954 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:20:52,955 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:20:52,956 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:20:53,327 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:20:53,341 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-15 11:20:53,354 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-15 11:20:53,382 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-15 11:20:53,388 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-15 11:20:53,390 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2023-01-15 11:20:53,437 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-15 11:20:55,069 log 224 Bad Request: /login/
+WARNING 2023-01-15 11:20:55,069 basehttp 161 "POST /login/?next=/addresses/ HTTP/1.1" 400 21
+INFO 2023-01-15 11:20:56,863 basehttp 161 "GET /login/?next=/addresses/ HTTP/1.1" 200 3704
+INFO 2023-01-15 11:20:56,915 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:20:56,916 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:20:56,931 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:20:56,933 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:20:56,934 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:20:57,314 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:20:57,322 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-15 11:20:57,353 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-15 11:20:57,362 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2023-01-15 11:20:57,398 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:20:57,445 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-15 11:20:57,486 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-15 11:20:58,080 basehttp 161 "POST /login/?next=/addresses/ HTTP/1.1" 302 0
+INFO 2023-01-15 11:20:58,095 basehttp 161 "GET /addresses/ HTTP/1.1" 200 7836
+INFO 2023-01-15 11:20:58,175 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:20:58,184 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:20:58,187 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:20:58,211 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:20:58,212 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:20:58,486 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:20:58,505 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:20:58,507 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 11:20:58,540 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2023-01-15 11:20:58,542 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 11:20:58,542 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-15 11:20:58,594 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:20:58,636 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 11:23:18,163 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:23:18,891 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:23:25,591 basehttp 161 "GET /areas/?area_id=150000 HTTP/1.1" 200 673
+INFO 2023-01-15 11:23:26,583 basehttp 161 "GET /areas/?area_id=150200 HTTP/1.1" 200 529
+INFO 2023-01-15 11:23:58,712 basehttp 161 "POST /addresses/ HTTP/1.1" 200 66
+INFO 2023-01-15 11:24:12,649 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:24:13,240 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:24:15,530 basehttp 161 "POST /addresses/ HTTP/1.1" 200 345
+INFO 2023-01-15 11:28:22,642 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 11:28:23,256 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 11:28:26,024 basehttp 161 "GET /addresses/ HTTP/1.1" 200 8687
+INFO 2023-01-15 11:28:26,081 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 11:28:26,081 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 11:28:26,096 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 11:28:26,101 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 11:28:26,119 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 11:28:26,660 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 11:28:26,672 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 11:28:26,692 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-15 11:28:26,747 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 11:28:26,747 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2023-01-15 11:28:26,748 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-15 11:28:26,811 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 11:28:26,843 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774

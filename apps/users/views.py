@@ -9,7 +9,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.views import View
 
-from apps.users.models import User
+from apps.users.models import User, Address
 import logging
 
 from apps.users.utils import active_email_url, check_email_active_token
@@ -418,6 +418,106 @@ class EmailActiveView(View):
 class AddressView(LoginRequiredMixin, View):
     """用户收货地址"""
 
+    def post(self, request):
+        # 一个人最多添加20个地址
+        # 0 先判断当前的用户的地址是否多余等于20个
+        # 获取当前用户的地址的数量
+        # count = Address.objects.filter(user=request.user).count()
+        # count = request.user.address_set.count()
+        count = request.user.addresses.all().count()
+
+        if count >= 5:
+            return http.JsonResponse({'code': RETCODE.THROTTLINGERR, 'errmsg': '地址超过上限'})
+
+        # 1.接收数据 -- 收件人,地址,省,市,区,邮箱,固定电话,手机号
+        json_dict = json.loads(request.body.decode())
+        receiver = json_dict.get('receiver')
+        province_id = json_dict.get('province_id')
+        city_id = json_dict.get('city_id')
+        district_id = json_dict.get('district_id')
+        place = json_dict.get('place')
+        mobile = json_dict.get('mobile')
+        tel = json_dict.get('tel')
+        email = json_dict.get('email')
+        # 2.验证数据
+        #         验证邮箱,固定电话,手机号 等
+        if not all([receiver, province_id, city_id, district_id, place, mobile]):
+            return http.HttpResponseBadRequest('缺少必传参数')
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return http.HttpResponseBadRequest('参数mobile有误')
+        if tel:
+            if not re.match(r'^(0[0-9]{2,3}-)?([2-9][0-9]{6,7})+(-[0-9]{1,4})?$', tel):
+                return http.HttpResponseBadRequest('参数tel有误')
+        if email:
+            if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+                return http.HttpResponseBadRequest('参数email有误')
+        # 3.数据入库
+        try:
+            # address = Address()
+            # address.save()
+
+            address = Address.objects.create(
+                user=request.user,
+                title=receiver,
+                receiver=receiver,
+                province_id=province_id,
+                city_id=city_id,
+                district_id=district_id,
+                place=place,
+                mobile=mobile,
+                tel=tel,
+                email=email
+            )
+        except Exception as e:
+            logger.error(e)
+
+        # 如果当前用户没有默认地址就给它设置一个默认地址
+        if not request.user.default_address:
+            request.user.default_address = address
+            request.user.save()
+
+        address_dict = {
+            "id": address.id,
+            "title": address.title,
+            "receiver": address.receiver,
+            "province": address.province.name,
+            "city": address.city.name,
+            "district": address.district.name,
+            "place": address.place,
+            "mobile": address.mobile,
+            "tel": address.tel,
+            "email": address.email
+        }
+        # 4.返回相应
+        #     返回JSON数据
+        return http.JsonResponse({"code": RETCODE.OK, 'errmsg': 'ok', 'address': address_dict})
+
     def get(self, request):
         """提供收货地址界面"""
-        return render(request, 'user_center_site.html')
+        # 1.根据条件查询信息
+        addresses = Address.objects.filter(user=request.user, is_deleted=False)
+
+        # 2.如果需要我们将对象列表转换为字典列表
+        addresses_list = []
+        for address in addresses:
+            addresses_list.append({
+                "id": address.id,
+                "title": address.title,
+                "receiver": address.receiver,
+                "province": address.province.name,
+                "province_id": address.province_id,
+                "city": address.city.name,
+                "city_id": address.city_id,
+                "district": address.district.name,
+                "district_id": address.district_id,
+                "place": address.place,
+                "mobile": address.mobile,
+                "tel": address.tel,
+                "email": address.email
+            })
+        # 3.返回相应
+        context = {
+            'addresses': addresses_list,
+            'default_address_id': request.user.default_address_id
+        }
+        return render(request, 'user_center_site.html', context)
