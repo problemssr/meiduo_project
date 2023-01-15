@@ -12,4 +12,5 @@ urlpatterns = [
     url(r'^emails/$', views.EmailView.as_view(), name='email'),
     url(r'^email_active/$', views.EmailActiveView.as_view(), name='activeemail'),
     url(r'^addresses/$', views.AddressView.as_view(), name='showaddress'),
+    url(r'^addresses/(?P<address_id>\d+)/$', views.AddressUpdateView.as_view(), name='updateaddress'),
 ]

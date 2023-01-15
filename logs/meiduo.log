@@ -2826,3 +2826,25 @@ INFO 2023-01-15 11:28:26,747 basehttp 161 "GET /static/images/edit.png HTTP/1.1"
 INFO 2023-01-15 11:28:26,748 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
 WARNING 2023-01-15 11:28:26,811 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
 INFO 2023-01-15 11:28:26,843 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 12:41:05,046 basehttp 161 "GET /areas/?area_id=150000 HTTP/1.1" 200 673
+INFO 2023-01-15 12:41:05,052 basehttp 161 "GET /areas/?area_id=150200 HTTP/1.1" 200 529
+INFO 2023-01-15 12:43:55,190 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2023-01-15 12:43:56,109 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 12:45:57,618 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-15 12:45:58,195 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-15 12:46:05,274 basehttp 161 "PUT /addresses/3/ HTTP/1.1" 200 345
+INFO 2023-01-15 12:46:15,245 basehttp 161 "DELETE /addresses/2/ HTTP/1.1" 200 29
+INFO 2023-01-15 12:46:18,628 basehttp 161 "GET /addresses/ HTTP/1.1" 200 8403
+INFO 2023-01-15 12:46:18,680 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-15 12:46:18,701 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-15 12:46:18,738 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-15 12:46:18,739 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-15 12:46:18,819 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-15 12:46:19,188 basehttp 161 "GET /static/js/user_center_site.js HTTP/1.1" 200 13750
+INFO 2023-01-15 12:46:19,188 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-15 12:46:19,206 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-15 12:46:19,239 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-15 12:46:19,264 basehttp 161 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2023-01-15 12:46:19,277 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-15 12:46:19,286 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-15 12:46:19,296 basehttp 161 "GET /static/images/edit.png HTTP/1.1" 200 1244
