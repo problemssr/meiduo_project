@@ -5061,3 +5061,172 @@ INFO 2023-01-17 02:04:51,974 basehttp 161 "GET /static/images/logo.png HTTP/1.1"
 WARNING 2023-01-17 02:04:52,668 log 224 Not Found: /carts/simple/
 WARNING 2023-01-17 02:04:52,676 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5298
 WARNING 2023-01-17 02:05:02,275 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-17 04:59:03,114 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-17 04:59:03,378 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-17 04:59:04,381 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 04:59:04,381 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 05:16:58,181 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 05:16:58,427 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 05:17:00,168 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 05:17:00,263 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 05:18:21,721 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 05:18:23,728 basehttp 161 "GET / HTTP/1.1" 200 124436
+INFO 2023-01-17 05:18:23,856 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 05:18:23,861 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 05:18:23,888 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-17 05:18:23,911 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-17 05:18:23,929 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 05:18:23,937 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 05:18:23,940 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 05:18:24,627 basehttp 161 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2023-01-17 05:18:24,647 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 1388
+INFO 2023-01-17 05:18:24,705 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-17 05:18:24,959 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-17 05:18:24,992 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-17 05:18:25,807 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 05:18:25,810 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5517
+ERROR 2023-01-17 05:18:56,955 log 224 Internal Server Error: /list/115/0/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py", line 111, in get
+    'page_skus': page_skus,  # 分页后数据
+UnboundLocalError: local variable 'page_skus' referenced before assignment
+ERROR 2023-01-17 05:18:56,956 basehttp 161 "GET /list/115/0/?sort=price HTTP/1.1" 500 88349
+INFO 2023-01-17 05:20:03,680 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 05:20:03,754 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 05:20:04,576 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 05:20:04,576 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-17 05:20:10,520 log 224 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py", line 113, in get
+    return render(request, 'list.html', context=context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/list.html", line 14, in <module>
+    let category_id = "{{ category.id }}"
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2023-01-17 05:20:10,521 basehttp 161 "GET /list/115/1/?sort=price HTTP/1.1" 500 140034
+INFO 2023-01-17 05:20:58,153 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 05:20:58,705 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 05:20:59,168 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-17 05:22:50,885 log 224 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py", line 113, in get
+    return render(request, 'list.html', context=context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/list.html", line 14, in <module>
+    let category_id = "{{ category.id }}"
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'category' is undefined
+ERROR 2023-01-17 05:22:50,890 basehttp 161 "GET /list/115/1/?sort=price HTTP/1.1" 500 142014
+INFO 2023-01-17 07:41:36,899 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 07:41:37,150 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 07:41:38,002 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 07:41:38,213 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-17 07:42:00,555 log 224 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py", line 113, in get
+    return render(request, 'list.html', context=context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/list.html", line 270, in <module>
+    <a href="javascript:;">{{ breadcrumb.cat1.name }}</a>
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'breadcrumb' is undefined
+ERROR 2023-01-17 07:42:00,563 basehttp 161 "GET /list/115/1/?sort=price HTTP/1.1" 500 142393
+INFO 2023-01-17 07:58:50,335 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 07:58:50,351 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 07:58:51,111 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 07:58:51,448 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 08:00:37,467 basehttp 161 "GET /list/115/1/?sort=price HTTP/1.1" 200 18272
+INFO 2023-01-17 08:00:37,515 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-17 08:00:37,535 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 08:00:37,541 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 08:00:37,564 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 08:00:37,568 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 08:00:37,592 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 08:00:38,122 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-17 08:00:38,126 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-17 08:00:38,161 basehttp 161 "GET /static/js/list.js HTTP/1.1" 200 2589
+INFO 2023-01-17 08:00:38,168 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+INFO 2023-01-17 08:00:38,211 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-17 08:00:38,225 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2023-01-17 08:00:38,328 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-17 08:00:38,333 log 224 Not Found: /list/115/static/images/logo.png
+WARNING 2023-01-17 08:00:38,344 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 5571
+WARNING 2023-01-17 08:00:38,459 log 224 Not Found: /hot/115/
+WARNING 2023-01-17 08:00:38,472 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 08:00:38,477 basehttp 161 "GET /hot/115/ HTTP/1.1" 404 5502
+WARNING 2023-01-17 08:00:38,483 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5517
