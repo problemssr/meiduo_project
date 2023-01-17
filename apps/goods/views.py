@@ -160,3 +160,95 @@ class HotView(View):
             })
 
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok', 'hot_skus': skus_list})
+
+
+"""
+搜索引擎的原理: 类似于新华字典的索引
+
+    我是中国人 --> 搜索引擎 --> 进行分词处理 --> (我,是,中国,中国人,国人)
+
+    我       -->   我是中国人 这条记录
+    中国      -->
+
+    我是中
+    国人
+
+全文检索(搜索)  --> 借助于 搜索引擎 (进行分词处理) --> 建立搜索词 和 搜索结果的对应关系
+
+    我                 (我,是,中国,中国人,国人)           我是中国人
+
+
+
+1. 我们的搜索不使用like,因为like 查询效率低, 多个字段查询不方便
+
+2. 我们搜索使用全文检索
+
+3. 全文检索 需要使用 搜索引擎
+
+4. 我们的搜索引擎使用 elasticsearch
+
+
+使用 elasticsearch 实现全文检索
+
+
+数据          haystack          elasticsearch
+
+"""
+
+
+class DetailView(View):
+    def get(self, request, sku_id):
+        """提供商品详情页"""
+        # 获取当前sku的信息
+        try:
+            sku = SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            return render(request, '404.html')
+        # 查询商品频道分类
+        categories = get_categories()
+        # 查询面包屑导航
+        breadcrumb = get_breadcrumb(sku.category)
+
+        # 构建当前商品的规格键
+        sku_specs = sku.specs.order_by('spec_id')
+        sku_key = []
+        for spec in sku_specs:
+            sku_key.append(spec.option.id)
+        # 获取当前商品的所有SKU
+        skus = sku.spu.sku_set.all()
+        # 构建不同规格参数（选项）的sku字典
+        spec_sku_map = {}
+        for s in skus:
+            # 获取sku的规格参数
+            s_specs = s.specs.order_by('spec_id')
+            # 用于形成规格参数-sku字典的键
+            key = []
+            for spec in s_specs:
+                key.append(spec.option.id)
+            # 向规格参数-sku字典添加记录
+            spec_sku_map[tuple(key)] = s.id
+        # 获取当前商品的规格信息
+        goods_specs = sku.spu.specs.order_by('id')
+        # 若当前sku的规格信息不完整，则不再继续
+        if len(sku_key) < len(goods_specs):
+            return
+        for index, spec in enumerate(goods_specs):
+            # 复制当前sku的规格键
+            key = sku_key[:]
+            # 该规格的选项
+            spec_options = spec.options.all()
+            for option in spec_options:
+                # 在规格参数sku字典中查找符合当前规格的sku
+                key[index] = option.id
+                option.sku_id = spec_sku_map.get(tuple(key))
+            spec.spec_options = spec_options
+
+        # 渲染页面
+        context = {
+            'categories': categories,
+            'breadcrumb': breadcrumb,
+            'sku': sku,
+            'specs': goods_specs,
+        }
+
+        return render(request, 'detail.html', context)

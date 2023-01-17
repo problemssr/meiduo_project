@@ -5354,3 +5354,87 @@ INFO 2023-01-17 12:00:25,447 basehttp 161 "GET /search/?q=10 HTTP/1.1" 200 4059
 WARNING 2023-01-17 12:00:25,627 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
 INFO 2023-01-17 12:00:41,836 basehttp 161 "GET /search/?q=P10 HTTP/1.1" 200 7640
 WARNING 2023-01-17 12:00:42,021 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:04:11,342 basehttp 161 "GET /search/?q=P10 HTTP/1.1" 200 8387
+WARNING 2023-01-17 12:04:11,612 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:04:43,480 basehttp 161 "GET /search/?q=P10 HTTP/1.1" 200 8376
+WARNING 2023-01-17 12:04:43,779 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:05:22,310 basehttp 161 "GET /search/?q=P10 HTTP/1.1" 200 8318
+WARNING 2023-01-17 12:05:22,531 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:05:23,334 basehttp 161 "GET /search/?q=P10 HTTP/1.1" 200 8318
+WARNING 2023-01-17 12:05:23,513 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+WARNING 2023-01-17 12:05:25,044 log 224 Not Found: /detail/13/
+WARNING 2023-01-17 12:05:25,045 basehttp 161 "GET /detail/13/ HTTP/1.1" 404 5809
+WARNING 2023-01-17 12:05:27,102 log 224 Not Found: /detail/10/
+WARNING 2023-01-17 12:05:27,103 basehttp 161 "GET /detail/10/ HTTP/1.1" 404 5809
+INFO 2023-01-17 12:21:10,448 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/urls.py changed, reloading.
+INFO 2023-01-17 12:21:10,637 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 12:21:11,693 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 12:21:11,693 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-17 12:23:32,650 log 224 Internal Server Error: /detail/1/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view apps.goods.views.DetailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-01-17 12:23:32,651 basehttp 161 "GET /detail/1/ HTTP/1.1" 500 76673
+INFO 2023-01-17 12:24:14,896 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 12:24:15,316 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 12:24:15,888 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 12:24:16,000 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-17 12:24:17,648 log 224 Internal Server Error: /detail/1/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view apps.goods.views.DetailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-01-17 12:24:17,649 basehttp 161 "GET /detail/1/ HTTP/1.1" 500 76810
+INFO 2023-01-17 12:24:46,344 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 12:24:46,588 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 12:24:47,066 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 12:24:47,293 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 12:24:50,107 basehttp 161 "GET /detail/1/ HTTP/1.1" 200 17952
+INFO 2023-01-17 12:24:50,363 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 6979
+WARNING 2023-01-17 12:24:50,370 log 224 Not Found: /detail/static/images/logo.png
+WARNING 2023-01-17 12:24:50,370 basehttp 161 "GET /detail/static/images/logo.png HTTP/1.1" 404 6060
+WARNING 2023-01-17 12:24:50,398 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-17 12:24:50,406 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-17 12:24:50,407 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:24:50,408 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6090
+INFO 2023-01-17 12:24:50,425 basehttp 161 "GET /static/images/selected.png HTTP/1.1" 200 1060
+WARNING 2023-01-17 12:24:50,558 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-17 12:24:50,566 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:24:50,571 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-17 12:24:50,574 log 224 Not Found: /detail/static/images/logo.png
+WARNING 2023-01-17 12:24:50,582 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:24:50,595 basehttp 161 "GET /detail/static/images/logo.png HTTP/1.1" 404 6060
+WARNING 2023-01-17 12:24:50,601 log 224 Not Found: /comment/1/
+WARNING 2023-01-17 12:24:50,602 log 224 Not Found: /detail/visit/157/
+WARNING 2023-01-17 12:24:50,604 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 404 6024
+WARNING 2023-01-17 12:24:50,637 log 224 Not Found: /browse_histories/
+WARNING 2023-01-17 12:24:50,643 basehttp 161 "GET /comment/1/ HTTP/1.1" 404 6003
+WARNING 2023-01-17 12:24:50,652 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 12:24:50,653 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6012
+WARNING 2023-01-17 12:24:50,654 basehttp 161 "POST /browse_histories/ HTTP/1.1" 404 6025
+INFO 2023-01-17 12:24:50,660 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+INFO 2023-01-17 12:24:59,177 basehttp 161 "GET /detail/2/ HTTP/1.1" 200 17955
+WARNING 2023-01-17 12:24:59,325 log 224 Not Found: /detail/static/images/logo.png
+WARNING 2023-01-17 12:24:59,325 basehttp 161 "GET /detail/static/images/logo.png HTTP/1.1" 404 6060
+WARNING 2023-01-17 12:24:59,342 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-17 12:24:59,342 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:24:59,353 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-17 12:24:59,354 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:24:59,477 log 224 Not Found: /detail/visit/157/
+WARNING 2023-01-17 12:24:59,486 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 12:24:59,492 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6012
+WARNING 2023-01-17 12:24:59,498 log 224 Not Found: /browse_histories/
+WARNING 2023-01-17 12:24:59,502 log 224 Not Found: /comment/2/
+WARNING 2023-01-17 12:24:59,504 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 404 6024
+WARNING 2023-01-17 12:24:59,505 basehttp 161 "POST /browse_histories/ HTTP/1.1" 404 6025
+WARNING 2023-01-17 12:24:59,538 basehttp 161 "GET /comment/2/ HTTP/1.1" 404 6003
+INFO 2023-01-17 12:24:59,540 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
