@@ -61,5 +61,5 @@ urlpatterns = [
     # url(r'^',include('apps.orders.urls',namespace='orders')),
     # url(r'^',include('apps.pay.urls',namespace='pay')),
 
-    # url(r'^search/', include('haystack.urls')),
+    url(r'^search/', include('haystack.urls')),
 ]

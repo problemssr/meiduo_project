@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.oauth',
     'apps.areas',
     'apps.goods',
+    'haystack',  # 全文检索
 ]
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
@@ -256,8 +257,8 @@ DEFAULT_FILE_STORAGE = 'utils.fastdfs.storage.MyStorage'
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': 'http://192.168.229.148:9200/',  # Elasticsearch服务器ip地址，端口号固定为9200
-        'INDEX_NAME': 'haystack',  # Elasticsearch建立的索引库的名称
+        'URL': 'http://192.168.56.101:9200/',  # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'meiduo_mall',  # Elasticsearch建立的索引库的名称
     },
 }
 

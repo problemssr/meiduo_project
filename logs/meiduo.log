@@ -5296,3 +5296,61 @@ WARNING 2023-01-17 10:15:10,539 basehttp 161 "GET /list/115/static/images/logo.p
 WARNING 2023-01-17 10:15:10,675 log 224 Not Found: /carts/simple/
 WARNING 2023-01-17 10:15:10,676 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5710
 INFO 2023-01-17 10:15:10,701 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+INFO 2023-01-17 11:15:42,466 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-17 11:15:42,582 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-17 11:15:43,406 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:15:43,810 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:15:54,579 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:22:45,572 autoreload 251 /home/nosql/.environments/django_env/lib/python3.8/site-packages/haystack/inputs.py changed, reloading.
+INFO 2023-01-17 11:22:45,573 autoreload 251 /home/nosql/.environments/django_env/lib/python3.8/site-packages/haystack/inputs.py changed, reloading.
+INFO 2023-01-17 11:22:47,336 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:22:47,336 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:22:51,611 autoreload 251 /home/nosql/.environments/django_env/lib/python3.8/site-packages/haystack/inputs.py changed, reloading.
+INFO 2023-01-17 11:22:51,625 autoreload 251 /home/nosql/.environments/django_env/lib/python3.8/site-packages/haystack/inputs.py changed, reloading.
+INFO 2023-01-17 11:22:52,979 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:22:52,999 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:22:58,352 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:28:07,714 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-17 11:28:07,724 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-17 11:28:08,562 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:28:08,562 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 11:59:02,285 basehttp 161 "GET /search/?q=iphone HTTP/1.1" 200 6542
+INFO 2023-01-17 11:59:02,399 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-17 11:59:02,433 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 11:59:02,457 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 11:59:02,463 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 11:59:02,466 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 11:59:02,505 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 11:59:02,920 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+WARNING 2023-01-17 11:59:02,961 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 11:59:02,987 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+INFO 2023-01-17 11:59:02,989 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-17 11:59:03,007 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-17 11:59:03,056 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-17 11:59:11,253 basehttp 161 "GET /search/?q=%E5%8D%8E%E4%B8%BA HTTP/1.1" 200 7643
+INFO 2023-01-17 11:59:11,327 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-17 11:59:11,339 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 11:59:11,339 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 11:59:11,347 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 11:59:11,354 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 11:59:11,360 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 11:59:11,650 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+WARNING 2023-01-17 11:59:11,676 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 11:59:11,708 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-17 11:59:11,721 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-17 11:59:11,722 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+INFO 2023-01-17 11:59:11,785 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-17 11:59:21,230 basehttp 161 "GET /search/?q=%E4%B8%89%E6%98%9F HTTP/1.1" 200 3632
+WARNING 2023-01-17 11:59:21,790 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 11:59:30,140 basehttp 161 "GET /search/?q=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 3632
+WARNING 2023-01-17 11:59:30,315 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 11:59:34,661 basehttp 161 "GET /search/?q=xiaomi HTTP/1.1" 200 3632
+WARNING 2023-01-17 11:59:34,902 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:00:00,169 basehttp 161 "GET /search/?q=Apple HTTP/1.1" 200 7494
+WARNING 2023-01-17 12:00:00,394 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:00:11,697 basehttp 161 "GET /search/?q=Iphone HTTP/1.1" 200 6542
+WARNING 2023-01-17 12:00:11,945 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:00:25,447 basehttp 161 "GET /search/?q=10 HTTP/1.1" 200 4059
+WARNING 2023-01-17 12:00:25,627 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
+INFO 2023-01-17 12:00:41,836 basehttp 161 "GET /search/?q=P10 HTTP/1.1" 200 7640
+WARNING 2023-01-17 12:00:42,021 basehttp 161 "GET /static/js/search.js HTTP/1.1" 404 1795
