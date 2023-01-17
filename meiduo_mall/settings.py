@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'apps.verifications',
     'apps.oauth',
     'apps.areas',
+    'apps.goods',
 ]
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 

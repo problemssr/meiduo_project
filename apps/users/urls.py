@@ -13,4 +13,7 @@ urlpatterns = [
     url(r'^email_active/$', views.EmailActiveView.as_view(), name='activeemail'),
     url(r'^addresses/$', views.AddressView.as_view(), name='showaddress'),
     url(r'^addresses/(?P<address_id>\d+)/$', views.AddressUpdateView.as_view(), name='updateaddress'),
+    url(r'^addresses/(?P<address_id>\d+)/default/$', views.DefaultAddressView.as_view(), name='defaultaddress'),
+    url(r'^addresses/(?P<address_id>\d+)/title/$', views.UpdateTitleAddressView.as_view(), name='tiitleaddress'),
+
 ]
