@@ -5230,3 +5230,69 @@ WARNING 2023-01-17 08:00:38,459 log 224 Not Found: /hot/115/
 WARNING 2023-01-17 08:00:38,472 log 224 Not Found: /carts/simple/
 WARNING 2023-01-17 08:00:38,477 basehttp 161 "GET /hot/115/ HTTP/1.1" 404 5502
 WARNING 2023-01-17 08:00:38,483 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5517
+INFO 2023-01-17 09:21:26,642 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 09:21:27,045 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 09:21:27,783 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 09:21:28,226 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-17 09:21:34,036 log 224 Not Found: /hot/115/1/
+WARNING 2023-01-17 09:21:34,037 basehttp 161 "GET /hot/115/1/?sort=price HTTP/1.1" 404 5712
+INFO 2023-01-17 09:21:40,729 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+INFO 2023-01-17 10:14:56,161 basehttp 161 "GET /list/115/1/?sort=hoy HTTP/1.1" 200 18212
+INFO 2023-01-17 10:14:56,297 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-17 10:14:56,322 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 10:14:56,406 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 10:14:56,430 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 10:14:56,432 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 10:14:56,433 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 10:14:56,790 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-17 10:14:56,816 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-17 10:14:56,884 basehttp 161 "GET /static/js/list.js HTTP/1.1" 200 2589
+WARNING 2023-01-17 10:14:56,909 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-17 10:14:56,910 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+WARNING 2023-01-17 10:14:56,946 log 224 Not Found: /list/115/static/images/logo.png
+INFO 2023-01-17 10:14:56,949 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-17 10:14:56,950 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 5764
+INFO 2023-01-17 10:14:56,951 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2023-01-17 10:14:57,128 log 224 Not Found: /list/115/static/images/logo.png
+WARNING 2023-01-17 10:14:57,129 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 5764
+WARNING 2023-01-17 10:14:57,222 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 10:14:57,224 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5710
+INFO 2023-01-17 10:14:57,229 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+INFO 2023-01-17 10:15:00,081 basehttp 161 "GET /list/115/1/?sort=hot HTTP/1.1" 200 18231
+INFO 2023-01-17 10:15:00,183 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 10:15:00,185 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-17 10:15:00,186 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 10:15:00,206 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 10:15:00,206 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 10:15:00,212 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 10:15:00,503 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-17 10:15:00,523 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-17 10:15:00,572 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+INFO 2023-01-17 10:15:00,585 basehttp 161 "GET /static/js/list.js HTTP/1.1" 200 2589
+WARNING 2023-01-17 10:15:00,615 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-17 10:15:00,626 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-17 10:15:00,628 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2023-01-17 10:15:00,660 log 224 Not Found: /list/115/static/images/logo.png
+WARNING 2023-01-17 10:15:00,679 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 5764
+WARNING 2023-01-17 10:15:00,777 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 10:15:00,778 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5710
+INFO 2023-01-17 10:15:00,809 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+INFO 2023-01-17 10:15:09,981 basehttp 161 "GET /list/115/1/?sort=price HTTP/1.1" 200 18272
+INFO 2023-01-17 10:15:10,038 basehttp 161 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2023-01-17 10:15:10,042 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-17 10:15:10,045 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-17 10:15:10,061 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-17 10:15:10,065 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+INFO 2023-01-17 10:15:10,066 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-17 10:15:10,366 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-17 10:15:10,414 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-17 10:15:10,445 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-17 10:15:10,487 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+INFO 2023-01-17 10:15:10,488 basehttp 161 "GET /static/js/list.js HTTP/1.1" 200 2589
+WARNING 2023-01-17 10:15:10,498 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-17 10:15:10,513 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2023-01-17 10:15:10,535 log 224 Not Found: /list/115/static/images/logo.png
+WARNING 2023-01-17 10:15:10,539 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 5764
+WARNING 2023-01-17 10:15:10,675 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 10:15:10,676 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 5710
+INFO 2023-01-17 10:15:10,701 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578

@@ -111,3 +111,52 @@ class ListView(View):
         }
 
         return render(request, 'list.html', context=context)
+
+
+"""
+一 把需求写下来 (前端需要收集什么 后端需要做什么)
+
+    前端: 需要把分类id传递给后端
+    后端: 根据分类id查询数据
+
+二 把大体思路写下来(后端的大体思路)
+
+    1.获取分类id
+    2.查询是否有当前分类
+    3.根据分类去查询指定的数据,并进行排序,排序之后获取n条
+    4.ajax 把对象列表转换为字典列表
+三 把详细思路完善一下(纯后端)
+
+     1.获取分类id
+    2.查询是否有当前分类
+    3.根据分类去查询指定的数据,并进行排序,排序之后获取n条
+    4.ajax 把对象列表转换为字典列表
+
+四 确定我们请求方式和路由
+    GET     hot/?cat=xxxx
+            hot/cat_id/
+"""
+
+
+class HotView(View):
+
+    def get(self, request, category_id):
+        #  1.获取分类id
+        # 2.查询是否有当前分类
+        try:
+            category = GoodsCategory.objects.get(id=category_id)
+        except Exception as e:
+            return http.JsonResponse({'code': RETCODE.NODATAERR, 'errmsg': '暂无此分类'})
+        # 3.根据分类去查询指定的数据,并进行排序,排序之后获取n条
+        skus = SKU.objects.filter(category=category, is_launched=True).order_by('-sales')[:2]
+        # 4.ajax 把对象列表转换为字典列表
+        skus_list = []
+        for sku in skus:
+            skus_list.append({
+                'id': sku.id,
+                'default_image_url': sku.default_image.url,
+                'name': sku.name,
+                'price': sku.price
+            })
+
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok', 'hot_skus': skus_list})
