@@ -250,7 +250,7 @@ EMAIL_HOST_PASSWORD = 'NFLLTTEUEDWKUGVV'
 EMAIL_FROM = '皮皮<excellentchina@163.com>'
 
 # 自定义完成了存储类之后,告诉系统,使用我们的自定义存储类
-DEFAULT_FILE_STORAGE = 'utils.fdfs.faststorage.MyStorage'
+DEFAULT_FILE_STORAGE = 'utils.fastdfs.storage.MyStorage'
 
 # Haystack
 HAYSTACK_CONNECTIONS = {
