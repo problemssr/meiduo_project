@@ -5438,3 +5438,44 @@ WARNING 2023-01-17 12:24:59,504 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 4
 WARNING 2023-01-17 12:24:59,505 basehttp 161 "POST /browse_histories/ HTTP/1.1" 404 6025
 WARNING 2023-01-17 12:24:59,538 basehttp 161 "GET /comment/2/ HTTP/1.1" 404 6003
 INFO 2023-01-17 12:24:59,540 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+INFO 2023-01-17 12:29:34,289 basehttp 161 "GET /detail/2/ HTTP/1.1" 200 17953
+WARNING 2023-01-17 12:29:34,525 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-17 12:29:34,533 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-17 12:29:34,534 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:29:34,536 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:29:34,637 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-17 12:29:34,645 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:29:34,650 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-17 12:29:34,655 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6090
+WARNING 2023-01-17 12:29:34,692 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 12:29:34,695 log 224 Not Found: /detail/visit/157/
+WARNING 2023-01-17 12:29:34,698 log 224 Not Found: /comment/2/
+WARNING 2023-01-17 12:29:34,714 basehttp 161 "GET /comment/2/ HTTP/1.1" 404 6003
+WARNING 2023-01-17 12:29:34,703 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 404 6024
+WARNING 2023-01-17 12:29:34,713 log 224 Not Found: /browse_histories/
+INFO 2023-01-17 12:29:34,713 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+WARNING 2023-01-17 12:29:34,702 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6012
+WARNING 2023-01-17 12:29:34,716 basehttp 161 "POST /browse_histories/ HTTP/1.1" 404 6025
+WARNING 2023-01-17 12:30:05,065 log 224 Not Found: /index/
+WARNING 2023-01-17 12:30:05,065 basehttp 161 "GET /index/ HTTP/1.1" 404 5991
+INFO 2023-01-17 12:30:13,842 basehttp 161 "GET / HTTP/1.1" 200 124436
+WARNING 2023-01-17 12:30:14,669 log 224 Not Found: /carts/simple/
+WARNING 2023-01-17 12:30:14,673 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6012
+INFO 2023-01-17 12:40:28,638 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/models.py changed, reloading.
+INFO 2023-01-17 12:40:28,678 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/models.py changed, reloading.
+INFO 2023-01-17 12:40:30,149 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 12:40:30,149 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 14:13:29,519 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 14:13:30,294 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2023-01-17 14:13:31,682 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 14:13:31,682 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-17 14:13:44,686 log 224 Not Found: /detail/visit/115/
+WARNING 2023-01-17 14:13:44,687 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 404 6024
+INFO 2023-01-17 14:14:06,786 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/urls.py changed, reloading.
+INFO 2023-01-17 14:14:07,229 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/goods/urls.py changed, reloading.
+INFO 2023-01-17 14:14:07,457 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 14:14:08,024 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-17 14:14:13,872 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-17 14:14:29,701 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2023-01-17 14:14:36,287 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2023-01-17 14:14:41,625 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29

@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.views import View
 
 from apps.contents.utils import get_categories
-from apps.goods.models import SKU, GoodsCategory
+from apps.goods.models import SKU, GoodsCategory, GoodsVisitCount
 from apps.goods.utlis import get_breadcrumb
 from utils.response_code import RETCODE
 
@@ -252,3 +252,67 @@ class DetailView(View):
         }
 
         return render(request, 'detail.html', context)
+
+
+"""
+1.
+    当用户在列表页面/详情页面的时候,我们需要给后台发送一个 统计访问量的请求
+    这个请求 包含 分类id就行
+
+    后台:
+    接收这个分类id,对它的统计个数+1
+
+2. 后台要做什么
+
+    根据id,查询分类
+    再将当天的统计个数+1
+
+3. 细化
+    ① 获取分类id
+    ② 根据分类id查询分类,判断分类是否存在
+    ③ 我们以天为单位,如果当天没有统计数据,则应该新增统计数据
+         我们以天为单位,如果当天有统计数据,则应该更新统计数据
+    ④ 返回相应
+
+4. 请求方式和路由
+
+    GET     visit/?cat_id=xx
+            detail/visit/(?P<category_id>\d+)/
+"""
+
+
+class VisitCategoryView(View):
+
+    def get(self, request, category_id):
+        # ① 获取分类id
+        # ② 根据分类id查询分类,判断分类是否存在
+        try:
+            category = GoodsCategory.objects.get(id=category_id)
+        except Exception as e:
+            logger.error(e)
+            return render(request, '404.html')
+
+        # 我们需要查询 当天的,分类id的记录
+        # yyyy-mm-dd
+        # from datetime import datetime
+        # now = datetime.now()
+        # today_date = datetime.strptime(now,'%Y-%m%-%d')
+
+        from django.utils import timezone
+        today = timezone.localdate()
+        try:
+            gvc = GoodsVisitCount.objects.get(date=today, category_id=category_id)
+        except GoodsVisitCount.DoesNotExist:
+            #      我们以天为单位,如果当天有统计数据,则应该更新统计数据
+            GoodsVisitCount.objects.create(
+                date=today,
+                count=1,
+                category_id=category_id
+            )
+        else:
+            gvc.count += 1
+            gvc.save()
+            # ③ 我们以天为单位,如果当天没有统计数据,则应该新增统计数据
+
+        # ④ 返回相应
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})
