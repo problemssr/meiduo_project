@@ -10,6 +10,7 @@ from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 
+from apps.carts.utils import merge_cookie_to_redis
 from apps.goods.models import SKU
 from apps.users.models import User, Address
 import logging
@@ -103,7 +104,7 @@ class RegisterView(View):
         except Exception as e:
             logger.error(e)
             return render(request, 'register.html', context={'error_message': '数据库异常'})
-            return http.HttpResponseBadRequest('数据库异常')
+            # return http.HttpResponseBadRequest('数据库异常')
 
         # 4.返回响应, 跳转到首页
 
@@ -260,6 +261,8 @@ class LoginView(View):
             # response.set_cookie(key,value,max_age)
             response.set_cookie('username', user.username, max_age=14 * 24 * 3600)
 
+            # 合并数据到redis
+            merge_cookie_to_redis(request, user, response)
             return response
         else:
             # 登陆失败

@@ -5979,3 +5979,7 @@ INFO 2023-01-18 14:51:19,903 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
 INFO 2023-01-18 14:51:21,718 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
 INFO 2023-01-18 14:51:28,203 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
 INFO 2023-01-18 14:51:28,355 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 23:57:53,495 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 23:57:53,796 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 23:57:54,794 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 23:57:54,794 autoreload 637 Watching for file changes with StatReloader
