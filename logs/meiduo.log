@@ -5733,3 +5733,249 @@ INFO 2023-01-18 03:38:38,302 autoreload 251 /home/nosql/meiduo_project/meiduo_ma
 INFO 2023-01-18 03:38:38,609 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
 INFO 2023-01-18 03:38:39,347 autoreload 637 Watching for file changes with StatReloader
 INFO 2023-01-18 03:38:39,347 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 05:47:50,442 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 05:47:50,992 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 05:47:51,836 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 05:47:51,838 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-18 05:47:59,974 log 224 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/asgiref/local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x7f5f1d91e190> object has no attribute 'carts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py", line 285, in get
+    redis_conn = get_redis_connection('carts')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django_redis/__init__.py", line 14, in get_redis_connection
+    cache = caches[alias]
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'carts' doesn't exist.
+ERROR 2023-01-18 05:47:59,977 basehttp 161 "GET /carts/ HTTP/1.1" 500 103035
+INFO 2023-01-18 05:48:16,491 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 05:48:20,382 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 05:48:20,970 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 05:48:21,015 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 05:48:21,908 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-18 05:48:22,781 log 224 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/asgiref/local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x7fc39ef8a190> object has no attribute 'carts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py", line 285, in get
+    redis_conn = get_redis_connection('carts')
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django_redis/__init__.py", line 14, in get_redis_connection
+    cache = caches[alias]
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'carts' doesn't exist.
+ERROR 2023-01-18 05:48:22,783 basehttp 161 "GET /carts/ HTTP/1.1" 500 103035
+INFO 2023-01-18 05:51:11,746 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-18 05:51:11,883 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-18 05:51:12,780 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 05:51:12,780 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-18 05:51:14,968 log 224 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py", line 353, in get
+    return render(request, 'cart.html', context=context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/nosql/meiduo_project/meiduo_mall/templates/cart.html", line 84, in <module>
+    <li class="col04"><a href="{{ url('orders:placeorder') }}">去结算</a></li>
+  File "/home/nosql/.environments/django_env/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'orders' is not a registered namespace
+ERROR 2023-01-18 05:51:14,971 basehttp 161 "GET /carts/ HTTP/1.1" 500 147140
+INFO 2023-01-18 05:51:46,536 basehttp 161 "GET /carts/ HTTP/1.1" 200 4635
+INFO 2023-01-18 05:51:46,673 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 05:51:46,676 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 05:51:46,773 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 05:51:46,774 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 05:51:46,800 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 05:51:47,248 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 05:51:47,252 basehttp 161 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2023-01-18 05:51:47,269 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-18 05:51:47,305 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-18 05:51:47,312 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 06:13:01,528 basehttp 161 "GET /detail/11/ HTTP/1.1" 200 16234
+INFO 2023-01-18 06:13:01,700 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 06:13:01,703 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 06:13:01,733 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 06:13:01,755 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 06:13:01,764 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 06:13:01,799 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 06:13:02,238 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 6979
+INFO 2023-01-18 06:13:02,254 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 06:13:02,303 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 06:13:02,319 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 06:13:02,319 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 06:13:02,328 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6650
+INFO 2023-01-18 06:13:02,336 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-18 06:13:02,357 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 06:13:02,491 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 06:13:02,512 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 06:13:02,549 log 224 Not Found: /comment/11/
+WARNING 2023-01-18 06:13:02,556 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6572
+INFO 2023-01-18 06:13:02,560 basehttp 161 "GET /static/images/selected.png HTTP/1.1" 200 1060
+INFO 2023-01-18 06:13:02,567 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2023-01-18 06:13:02,572 basehttp 161 "GET /comment/11/ HTTP/1.1" 404 6566
+INFO 2023-01-18 06:13:02,586 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-18 06:13:04,912 basehttp 161 "POST /carts/ HTTP/1.1" 200 29
+WARNING 2023-01-18 06:13:07,568 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 06:13:08,662 basehttp 161 "GET /carts/ HTTP/1.1" 200 4915
+INFO 2023-01-18 06:13:08,743 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 06:13:08,745 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 06:13:08,746 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 06:13:08,749 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 06:13:08,749 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 06:13:09,111 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 06:13:09,114 basehttp 161 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2023-01-18 06:13:09,136 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-18 06:13:09,136 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-18 06:13:09,223 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 06:13:16,801 basehttp 161 "PUT /carts/ HTTP/1.1" 200 372
+INFO 2023-01-18 06:13:17,125 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 06:13:18,106 basehttp 161 "PUT /carts/ HTTP/1.1" 200 372
+INFO 2023-01-18 06:13:18,265 basehttp 161 "PUT /carts/ HTTP/1.1" 200 372
+INFO 2023-01-18 06:13:23,853 basehttp 161 "PUT /carts/ HTTP/1.1" 200 372
+INFO 2023-01-18 06:13:26,006 basehttp 161 "PUT /carts/ HTTP/1.1" 200 372
+INFO 2023-01-18 06:34:47,573 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 06:34:47,959 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 06:34:48,649 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 06:34:48,649 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 14:26:16,737 basehttp 161 "DELETE /carts/ HTTP/1.1" 200 29
+INFO 2023-01-18 14:26:18,427 basehttp 161 "GET /carts/ HTTP/1.1" 200 4635
+INFO 2023-01-18 14:26:18,548 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 14:26:18,576 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 14:26:18,577 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 14:26:18,586 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 14:26:18,598 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 14:26:19,145 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 14:26:19,178 basehttp 161 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2023-01-18 14:26:19,197 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 14:26:19,247 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 14:26:19,288 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-18 14:26:21,433 log 224 Not Found: /carts/index.html
+WARNING 2023-01-18 14:26:21,434 basehttp 161 "GET /carts/index.html HTTP/1.1" 404 6581
+INFO 2023-01-18 14:26:23,447 basehttp 161 "GET /carts/ HTTP/1.1" 200 4635
+INFO 2023-01-18 14:26:23,529 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 14:26:23,534 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 14:26:23,552 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 14:26:23,554 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 14:26:23,569 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 14:26:23,967 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 14:26:23,981 basehttp 161 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2023-01-18 14:26:24,011 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 14:26:24,025 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 14:26:24,051 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-18 14:26:26,998 basehttp 161 "GET /detail/11/ HTTP/1.1" 200 16234
+INFO 2023-01-18 14:26:27,042 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 14:26:27,052 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 14:26:27,056 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 14:26:27,061 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 14:26:27,062 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 14:26:27,071 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 14:26:27,412 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 6979
+INFO 2023-01-18 14:26:27,417 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 14:26:27,448 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 14:26:27,452 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 14:26:27,454 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 14:26:27,455 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6650
+INFO 2023-01-18 14:26:27,506 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-18 14:26:27,514 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 14:26:27,515 basehttp 161 "GET /static/images/selected.png HTTP/1.1" 200 1060
+WARNING 2023-01-18 14:26:27,641 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 14:26:27,664 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 14:26:27,664 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 14:26:27,666 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6650
+INFO 2023-01-18 14:26:27,709 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2023-01-18 14:26:27,743 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 14:26:27,777 log 224 Not Found: /comment/11/
+INFO 2023-01-18 14:26:27,784 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 14:26:27,785 basehttp 161 "GET /comment/11/ HTTP/1.1" 404 6566
+WARNING 2023-01-18 14:26:27,795 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6572
+INFO 2023-01-18 14:26:27,820 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-18 14:26:28,580 basehttp 161 "POST /carts/ HTTP/1.1" 200 29
+WARNING 2023-01-18 14:26:31,250 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 14:26:32,488 basehttp 161 "GET /carts/ HTTP/1.1" 200 4915
+INFO 2023-01-18 14:26:32,580 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 14:26:32,592 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 14:26:32,598 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 14:26:32,599 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 14:26:32,600 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 14:26:33,018 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 14:26:33,033 basehttp 161 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2023-01-18 14:26:33,076 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 14:26:33,097 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 14:26:33,181 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-18 14:26:36,009 basehttp 161 "PUT /carts/ HTTP/1.1" 200 372
+INFO 2023-01-18 14:26:37,738 basehttp 161 "GET /carts/ HTTP/1.1" 200 4915
+INFO 2023-01-18 14:26:37,924 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 14:26:37,928 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 14:26:37,945 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 14:26:37,946 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 14:26:37,953 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 14:26:38,369 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 14:26:38,370 basehttp 161 "GET /static/js/cart.js HTTP/1.1" 200 8354
+INFO 2023-01-18 14:26:38,404 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 14:26:38,424 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 14:26:38,442 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-18 14:50:44,634 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 14:50:44,715 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 14:51:19,903 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 14:51:21,718 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 14:51:28,203 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373
+INFO 2023-01-18 14:51:28,355 basehttp 161 "PUT /carts/ HTTP/1.1" 200 373

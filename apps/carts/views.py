@@ -306,8 +306,6 @@ class CartView(View):
                     'count': int(count),
                     'selected': selected
                 }
-
-
         else:
             # 3.未登录用户cookie查询
             #     3.1 读取cookie
@@ -435,8 +433,6 @@ class CartView(View):
                 'amount': sku.price * count,
             }
             return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok', 'cart_sku': cart_sku})
-
-
 
         else:
             # 5.未登录更新cookie数据
