@@ -8,6 +8,7 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from django.urls import reverse
 from django.views import View
+from django_redis import get_redis_connection
 
 from apps.goods.models import SKU
 from apps.users.models import User, Address
@@ -700,6 +701,27 @@ class UpdateTitleAddressView(View):
 
 
 class AddUserHistroyView(View):
+    def get(self, request):
+        # 根据用户id,获取redis中的指定数据
+        user = request.user
+
+        redis_conn = get_redis_connection('history')
+        # [1,2,34,] 根据id查询商品详细信息
+        ids = redis_conn.lrange('history_%s' % user.id, 0, 4)
+        # [SKu,SKU,SKU] 对象转换为字典
+        sku_list = []
+        for id in ids:
+            sku = SKU.objects.get(pk=id)
+            sku_list.append({
+                'id': sku.id,
+                'name': sku.name,
+                'default_image_url': sku.default_image.url,
+                'price': sku.price
+            })
+
+        # 返回相应
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok', 'skus': sku_list})
+
     def post(self, request):
         # 1.接收数据  用户信息,商品id
         user = request.user
@@ -716,7 +738,6 @@ class AddUserHistroyView(View):
         # 3.保存数据(后台:mysql /redis中)
         #  保存在列表中
         #  3.1 连接redis
-        from django_redis import get_redis_connection
         redis_conn = get_redis_connection('history')
         #  3.2  先删除有可能存在的这个商品id
         # http://doc.redisfans.com/

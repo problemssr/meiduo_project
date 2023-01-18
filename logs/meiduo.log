@@ -5617,3 +5617,23 @@ WARNING 2023-01-18 00:42:48,116 basehttp 161 "GET /comment/10/ HTTP/1.1" 404 639
 INFO 2023-01-18 00:42:48,120 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
 INFO 2023-01-18 00:42:48,137 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
 INFO 2023-01-18 00:42:48,165 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:55:22,549 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 00:55:22,843 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 00:55:23,603 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:55:24,022 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:55:26,966 basehttp 161 "GET /center/ HTTP/1.1" 200 5052
+WARNING 2023-01-18 00:55:37,104 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 00:55:43,278 basehttp 161 "GET /center/ HTTP/1.1" 200 5052
+INFO 2023-01-18 00:55:43,676 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 00:55:43,684 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 00:55:43,693 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 00:55:43,727 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 00:55:43,739 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 00:55:43,751 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 00:55:44,448 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-18 00:55:44,450 basehttp 161 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+WARNING 2023-01-18 00:55:44,616 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 00:55:44,617 basehttp 161 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2023-01-18 00:55:44,622 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2023-01-18 00:55:44,623 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-18 00:59:56,806 basehttp 161 "GET /browse_histories/ HTTP/1.1" 200 1276
