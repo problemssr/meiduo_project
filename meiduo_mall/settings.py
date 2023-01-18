@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.oauth',
     'apps.areas',
     'apps.goods',
+    'apps.carts',
     'haystack',  # 全文检索
 ]
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'

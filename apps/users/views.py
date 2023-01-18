@@ -725,7 +725,6 @@ class AddUserHistroyView(View):
     def post(self, request):
         # 1.接收数据  用户信息,商品id
         user = request.user
-
         data = json.loads(request.body.decode())
         sku_id = data.get('sku_id')
         # 2.验证数据

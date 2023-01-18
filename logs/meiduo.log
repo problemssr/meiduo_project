@@ -5637,3 +5637,99 @@ INFO 2023-01-18 00:55:44,617 basehttp 161 "GET /static/images/shop_cart.png HTTP
 INFO 2023-01-18 00:55:44,622 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
 INFO 2023-01-18 00:55:44,623 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
 INFO 2023-01-18 00:59:56,806 basehttp 161 "GET /browse_histories/ HTTP/1.1" 200 1276
+INFO 2023-01-18 01:50:39,212 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-18 01:50:39,395 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2023-01-18 01:50:39,917 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:50:40,554 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:52:30,993 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-18 01:52:31,294 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-18 01:52:31,704 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:52:32,427 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:52:39,168 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:53:39,574 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:54:18,579 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-18 01:54:19,014 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-18 01:54:19,192 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:54:19,657 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:54:41,150 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-18 01:54:41,509 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2023-01-18 01:54:42,026 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:54:42,469 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:57:13,378 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:57:19,927 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 01:57:20,766 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:57:28,399 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:57:41,730 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 01:57:42,163 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 01:57:42,573 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 01:57:43,130 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:08:34,724 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 02:08:35,058 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2023-01-18 02:08:35,790 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:08:35,790 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:12:45,850 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 02:12:46,317 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 02:12:46,577 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:12:47,054 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:13:04,670 basehttp 161 "GET /detail/11/ HTTP/1.1" 200 16234
+INFO 2023-01-18 02:13:04,784 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 02:13:04,808 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 02:13:04,854 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 02:13:04,869 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 02:13:04,905 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 02:13:04,922 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 02:13:05,249 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 6979
+INFO 2023-01-18 02:13:05,258 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2023-01-18 02:13:05,320 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2023-01-18 02:13:05,337 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+INFO 2023-01-18 02:13:05,355 basehttp 161 "GET /static/images/selected.png HTTP/1.1" 200 1060
+WARNING 2023-01-18 02:13:05,359 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 02:13:05,365 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 02:13:05,368 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 02:13:05,443 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2023-01-18 02:13:05,587 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 02:13:05,631 log 224 Not Found: /comment/11/
+WARNING 2023-01-18 02:13:05,638 basehttp 161 "GET /comment/11/ HTTP/1.1" 404 6566
+INFO 2023-01-18 02:13:05,639 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2023-01-18 02:13:05,644 log 224 Not Found: /carts/simple/
+INFO 2023-01-18 02:13:05,651 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2023-01-18 02:13:05,653 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6572
+INFO 2023-01-18 02:13:33,121 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 02:13:33,325 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 02:13:34,548 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:13:34,569 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:13:35,468 basehttp 161 "GET /detail/11/ HTTP/1.1" 200 16234
+INFO 2023-01-18 02:13:35,609 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2023-01-18 02:13:35,610 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2023-01-18 02:13:35,671 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+INFO 2023-01-18 02:13:35,676 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2023-01-18 02:13:35,690 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2023-01-18 02:13:35,691 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2023-01-18 02:13:36,151 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 6979
+INFO 2023-01-18 02:13:36,153 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2023-01-18 02:13:36,279 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 02:13:36,282 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 02:13:36,289 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 02:13:36,286 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6650
+WARNING 2023-01-18 02:13:36,286 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2023-01-18 02:13:36,424 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 02:13:36,428 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6572
+INFO 2023-01-18 02:13:36,462 basehttp 161 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2023-01-18 02:13:36,463 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 02:13:36,496 log 224 Not Found: /comment/11/
+INFO 2023-01-18 02:13:36,509 basehttp 161 "GET /static/images/selected.png HTTP/1.1" 200 1060
+WARNING 2023-01-18 02:13:36,511 basehttp 161 "GET /comment/11/ HTTP/1.1" 404 6566
+INFO 2023-01-18 02:13:36,533 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-18 02:13:36,555 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 02:13:46,063 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 02:13:46,296 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 02:13:47,264 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:13:47,264 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:14:03,689 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 02:14:03,873 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 02:14:04,741 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 02:14:04,741 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 03:38:38,302 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 03:38:38,609 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2023-01-18 03:38:39,347 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 03:38:39,347 autoreload 637 Watching for file changes with StatReloader
