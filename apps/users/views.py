@@ -9,6 +9,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.views import View
 
+from apps.goods.models import SKU
 from apps.users.models import User, Address
 import logging
 
@@ -650,3 +651,80 @@ class UpdateTitleAddressView(View):
         # 4.响应删除地址结果
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '设置地址标题成功'})
 
+
+"""
+用户浏览记录的需求:
+    1.我们只记录登陆用户的浏览记录
+    2.当用户浏览某一个具体的商品的时候,我们需要将该记录添加到一个表中
+        一 把需求写下来 (前端需要收集什么 后端需要做什么)
+
+            前端就是收集 商品id和用户信息,而且是发送ajax 请求
+
+            后端就是要保存数据
+
+        二 把大体思路写下来(后端的大体思路)
+
+           接收数据
+           验证数据
+           保存数据
+           返回相应
+
+        三 把详细思路完善一下(纯后端)
+
+           1.接收数据  用户信息,商品id
+           2.验证数据
+           3.保存数据(后台:mysql /redis中)
+            保存在列表中
+            3.1 连接redis
+            3.2  先删除有可能存在的这个商品id
+            3.3  再添加商品id
+            3.4  因为最近浏览没有分页功能我们只保存5条历史记录
+           4.返回相应
+
+
+        四 确定我们请求方式和路由
+            POST    user_histroy/
+
+
+    3.获取用户浏览记录的时候需要有一个展示顺序
+
+        根据用户id,获取redis中的指定数据
+        [1,2,34,] 根据id查询商品详细信息
+        [SKu,SKU,SKU] 对象转换为字典
+        返回相应
+
+
+        GET     histories/
+
+"""
+
+
+class AddUserHistroyView(View):
+    def post(self, request):
+        # 1.接收数据  用户信息,商品id
+        user = request.user
+
+        data = json.loads(request.body.decode())
+        sku_id = data.get('sku_id')
+        # 2.验证数据
+        try:
+            # pk primary key 主键 当前的主键就是 id
+            SKU.objects.get(pk=sku_id)
+            # SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            return http.JsonResponse({'codd': RETCODE.NODATAERR, 'errmsg': '暂无次商品'})
+        # 3.保存数据(后台:mysql /redis中)
+        #  保存在列表中
+        #  3.1 连接redis
+        from django_redis import get_redis_connection
+        redis_conn = get_redis_connection('history')
+        #  3.2  先删除有可能存在的这个商品id
+        # http://doc.redisfans.com/
+        # LREM key count value
+        redis_conn.lrem('history_%s' % user.id, 0, sku_id)
+        #  3.3  再添加商品id
+        redis_conn.lpush('history_%s' % user.id, sku_id)
+        #  3.4  因为最近浏览没有分页功能我们只保存5条历史记录
+        redis_conn.ltrim('history_%s' % user.id, 0, 4)
+        # 4.返回相应
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})

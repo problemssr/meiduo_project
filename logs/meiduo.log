@@ -5479,3 +5479,141 @@ INFO 2023-01-17 14:14:13,872 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 
 INFO 2023-01-17 14:14:29,701 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
 INFO 2023-01-17 14:14:36,287 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
 INFO 2023-01-17 14:14:41,625 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:12:27,017 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 00:12:27,545 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 00:12:27,962 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:12:28,140 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:36:28,392 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 00:36:29,197 autoreload 251 /home/nosql/meiduo_project/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2023-01-18 00:36:29,591 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:36:29,877 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:37:03,223 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-01-18 00:37:03,598 basehttp 161 "GET / HTTP/1.1" 200 124436
+WARNING 2023-01-18 00:37:04,217 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:37:04,218 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+INFO 2023-01-18 00:37:05,735 basehttp 161 "GET /login/ HTTP/1.1" 200 3704
+INFO 2023-01-18 00:37:06,001 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2023-01-18 00:37:06,003 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2023-01-18 00:37:06,035 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2023-01-18 00:37:06,077 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2023-01-18 00:37:06,080 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2023-01-18 00:37:08,028 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-01-18 00:37:08,310 basehttp 161 "GET / HTTP/1.1" 200 124436
+WARNING 2023-01-18 00:37:09,359 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:37:09,362 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+WARNING 2023-01-18 00:37:14,185 basehttp 161 "GET /static/cart.html HTTP/1.1" 404 1786
+INFO 2023-01-18 00:37:18,907 basehttp 161 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2023-01-18 00:37:20,751 log 224 Not Found: /templates/user_center_info.html
+WARNING 2023-01-18 00:37:20,752 basehttp 161 "GET /templates/user_center_info.html HTTP/1.1" 404 6456
+WARNING 2023-01-18 00:37:24,279 log 224 Not Found: /templates/user_center_site.html
+WARNING 2023-01-18 00:37:24,282 basehttp 161 "GET /templates/user_center_site.html HTTP/1.1" 404 6456
+WARNING 2023-01-18 00:37:33,767 log 224 Not Found: /templates/index.html
+WARNING 2023-01-18 00:37:33,775 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 6423
+WARNING 2023-01-18 00:37:38,344 log 224 Not Found: /carts/
+WARNING 2023-01-18 00:37:38,347 basehttp 161 "GET /carts/ HTTP/1.1" 404 6381
+INFO 2023-01-18 00:37:44,280 basehttp 161 "GET /list/115/1/ HTTP/1.1" 200 18212
+WARNING 2023-01-18 00:37:44,624 log 224 Not Found: /list/115/static/images/logo.png
+WARNING 2023-01-18 00:37:44,625 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 6456
+WARNING 2023-01-18 00:37:44,765 log 224 Not Found: /list/115/static/images/logo.png
+WARNING 2023-01-18 00:37:44,768 basehttp 161 "GET /list/115/static/images/logo.png HTTP/1.1" 404 6456
+WARNING 2023-01-18 00:37:44,768 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:37:44,770 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+INFO 2023-01-18 00:37:44,808 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 00:37:46,775 log 224 Not Found: /list/115/1/detail.html
+WARNING 2023-01-18 00:37:46,778 basehttp 161 "GET /list/115/1/detail.html HTTP/1.1" 404 6429
+WARNING 2023-01-18 00:37:55,345 log 224 Not Found: /list/115/1/detail.html
+WARNING 2023-01-18 00:37:55,347 basehttp 161 "GET /list/115/1/detail.html HTTP/1.1" 404 6429
+INFO 2023-01-18 00:38:03,784 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:38:25,456 basehttp 161 "GET /detail/1/ HTTP/1.1" 200 17950
+WARNING 2023-01-18 00:38:25,788 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:38:25,789 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:38:25,804 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:38:25,805 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:38:26,131 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:38:26,136 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:38:26,138 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:38:26,139 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+INFO 2023-01-18 00:38:26,145 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+WARNING 2023-01-18 00:38:26,234 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:38:26,235 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+WARNING 2023-01-18 00:38:26,238 log 224 Not Found: /comment/1/
+WARNING 2023-01-18 00:38:26,239 basehttp 161 "GET /comment/1/ HTTP/1.1" 404 6393
+INFO 2023-01-18 00:38:26,241 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:38:26,243 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:38:55,007 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-18 00:38:57,640 basehttp 161 "GET /detail/1/ HTTP/1.1" 200 17950
+WARNING 2023-01-18 00:38:58,090 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:38:58,105 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:38:58,130 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:38:58,220 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:38:58,327 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:38:58,332 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+WARNING 2023-01-18 00:38:58,364 log 224 Not Found: /comment/1/
+INFO 2023-01-18 00:38:58,370 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+WARNING 2023-01-18 00:38:58,384 basehttp 161 "GET /comment/1/ HTTP/1.1" 404 6393
+INFO 2023-01-18 00:38:58,405 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:41:50,013 basehttp 161 "GET /detail/2/ HTTP/1.1" 200 17953
+WARNING 2023-01-18 00:41:50,374 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:41:50,388 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:41:50,434 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:41:50,439 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+INFO 2023-01-18 00:41:50,711 basehttp 161 "GET /detail/visit/157/ HTTP/1.1" 200 29
+WARNING 2023-01-18 00:41:50,779 log 224 Not Found: /comment/2/
+INFO 2023-01-18 00:41:50,794 basehttp 161 "GET /hot/157/ HTTP/1.1" 200 473
+WARNING 2023-01-18 00:41:50,789 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:41:50,799 basehttp 161 "GET /comment/2/ HTTP/1.1" 404 6393
+WARNING 2023-01-18 00:41:50,827 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+INFO 2023-01-18 00:41:54,010 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:41:54,067 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:42:01,118 basehttp 161 "GET /detail/3/ HTTP/1.1" 200 16507
+WARNING 2023-01-18 00:42:01,558 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:42:01,573 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:01,574 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:42:01,575 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:01,914 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:42:01,936 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:42:01,951 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+WARNING 2023-01-18 00:42:01,954 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+INFO 2023-01-18 00:42:01,958 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 00:42:01,961 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:01,980 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+INFO 2023-01-18 00:42:01,991 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2023-01-18 00:42:02,031 log 224 Not Found: /comment/3/
+WARNING 2023-01-18 00:42:02,032 basehttp 161 "GET /comment/3/ HTTP/1.1" 404 6393
+INFO 2023-01-18 00:42:03,910 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:42:14,291 basehttp 161 "GET /detail/4/ HTTP/1.1" 200 16508
+WARNING 2023-01-18 00:42:14,696 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:42:14,698 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:42:14,710 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:14,732 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:14,867 log 224 Not Found: /comment/4/
+WARNING 2023-01-18 00:42:14,930 basehttp 161 "GET /comment/4/ HTTP/1.1" 404 6393
+WARNING 2023-01-18 00:42:14,935 log 224 Not Found: /carts/simple/
+INFO 2023-01-18 00:42:14,938 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2023-01-18 00:42:14,940 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+INFO 2023-01-18 00:42:14,942 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+INFO 2023-01-18 00:42:14,983 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:42:20,025 basehttp 161 "GET /detail/5/ HTTP/1.1" 200 16513
+WARNING 2023-01-18 00:42:20,487 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:42:20,505 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:20,537 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:42:20,539 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+INFO 2023-01-18 00:42:20,886 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+WARNING 2023-01-18 00:42:20,948 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:42:20,955 log 224 Not Found: /comment/5/
+WARNING 2023-01-18 00:42:20,961 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+WARNING 2023-01-18 00:42:20,963 basehttp 161 "GET /comment/5/ HTTP/1.1" 404 6393
+INFO 2023-01-18 00:42:20,964 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:42:21,000 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:42:47,419 basehttp 161 "GET /detail/10/ HTTP/1.1" 200 16233
+WARNING 2023-01-18 00:42:47,855 log 224 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2023-01-18 00:42:47,877 basehttp 161 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:47,909 log 224 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2023-01-18 00:42:47,910 basehttp 161 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6480
+WARNING 2023-01-18 00:42:48,061 log 224 Not Found: /carts/simple/
+WARNING 2023-01-18 00:42:48,109 log 224 Not Found: /comment/10/
+WARNING 2023-01-18 00:42:48,111 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 6402
+WARNING 2023-01-18 00:42:48,116 basehttp 161 "GET /comment/10/ HTTP/1.1" 404 6396
+INFO 2023-01-18 00:42:48,120 basehttp 161 "GET /hot/115/ HTTP/1.1" 200 578
+INFO 2023-01-18 00:42:48,137 basehttp 161 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2023-01-18 00:42:48,165 basehttp 161 "GET /detail/visit/115/ HTTP/1.1" 200 29

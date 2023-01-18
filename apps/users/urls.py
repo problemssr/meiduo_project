@@ -15,5 +15,5 @@ urlpatterns = [
     url(r'^addresses/(?P<address_id>\d+)/$', views.AddressUpdateView.as_view(), name='updateaddress'),
     url(r'^addresses/(?P<address_id>\d+)/default/$', views.DefaultAddressView.as_view(), name='defaultaddress'),
     url(r'^addresses/(?P<address_id>\d+)/title/$', views.UpdateTitleAddressView.as_view(), name='tiitleaddress'),
-
+    url(r'^browse_histories/$', views.AddUserHistroyView.as_view(), name='addhistory'),
 ]
