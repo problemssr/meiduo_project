@@ -58,7 +58,7 @@ urlpatterns = [
     url(r'^', include(('apps.areas.urls', 'areas'), namespace='areas')),
     url(r'^', include(('apps.goods.urls', 'goods'), namespace='goods')),
     url(r'^', include(('apps.carts.urls', 'carts'), namespace='carts')),
-    # url(r'^',include(('apps.orders.urls', 'orders'),namespace='orders')),
+    url(r'^', include(('apps.orders.urls', 'orders'), namespace='orders')),
     # url(r'^',include(('apps.pay.urls', 'pay'),namespace='pay')),
 
     url(r'^search/', include('haystack.urls')),

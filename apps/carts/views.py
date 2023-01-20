@@ -1,4 +1,6 @@
+import base64
 import json
+import pickle
 
 from django import http
 from django.shortcuts import render
@@ -572,24 +574,42 @@ class CartView(View):
 
 """
 
-# python manage.py shell
-import pickle
-import base64
 
-carts = {
-    '1': {"count": 10, "selected": True},
-    '2': {"count": 20, "selected": False},
-}
-# 将字典转换为二进制
-d = pickle.dumps(carts)
+class CartsSimpleView(View):
+    def get(self, request):
+        # 判断用户是否登录
+        user = request.user
+        if user.is_authenticated:
+            # 用户已登录，查询Redis购物车
+            redis_conn = get_redis_connection('carts')
+            redis_cart = redis_conn.hgetall('carts_%s' % user.id)
+            cart_selected = redis_conn.smembers('selected_%s' % user.id)
+            # 将redis中的两个数据统一格式，跟cookie中的格式一致，方便统一查询
+            cart_dict = {}
+            for sku_id, count in redis_cart.items():
+                cart_dict[int(sku_id)] = {
+                    'count': int(count),
+                    'selected': sku_id in cart_selected
+                }
+        else:
+            # 用户未登录，查询cookie购物车
+            cart_str = request.COOKIES.get('carts')
+            if cart_str:
+                cart_dict = pickle.loads(base64.b64decode(cart_str.encode()))
+            else:
+                cart_dict = {}
 
-l = pickle.loads(d)
+        # 构造简单购物车JSON数据
+        cart_skus = []
+        sku_ids = cart_dict.keys()
+        skus = SKU.objects.filter(id__in=sku_ids)
+        for sku in skus:
+            cart_skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'count': cart_dict.get(sku.id).get('count'),
+                'default_image_url': sku.default_image.url
+            })
 
-###################################################
-
-# base64
-# 将二进制转换为新的编码格式
-en = base64.b64encode(d)
-
-# 解码 将编码的数据转换为 正常的数据
-de = base64.b64decode(en)
+        # 响应json列表数据
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'cart_skus': cart_skus})
